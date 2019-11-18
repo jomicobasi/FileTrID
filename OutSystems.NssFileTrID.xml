@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OutSystems.NssFileTrID</name>
+    </assembly>
+    <members>
+        <member name="M:OutSystems.NssFileTrID.CssFileTrID.MssVerifyFile(System.Byte[],System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="ssFileBinary"></param>
+            <param name="ssExtension"></param>
+        </member>
+        <member name="M:OutSystems.NssFileTrID.CssFileTrID.MssVerifyIsExtension(System.Byte[],System.String,System.Boolean@)">
+            <summary>
+            
+            </summary>
+            <param name="ssFileBinary"></param>
+            <param name="ssExtensionGuess"></param>
+            <param name="ssIsAsExpected"></param>
+        </member>
+        <member name="M:OutSystems.NssFileTrID.IssFileTrID.MssVerifyFile(System.Byte[],System.String@)">
+            <summary>
+            Returns the effective File Extension for the given File, by carving its binary contents.
+            </summary>
+            <param name="ssFileBinary">Examples:
+            .pdf
+            .docx
+            .exe</param>
+            <param name="ssExtension"></param>
+        </member>
+        <member name="M:OutSystems.NssFileTrID.IssFileTrID.MssVerifyIsExtension(System.Byte[],System.String,System.Boolean@)">
+            <summary>
+            Returns if the given file matches its path extension, by carving the binary contents of the file.
+            </summary>
+            <param name="ssFileBinary"></param>
+            <param name="ssExtensionGuess">Guess of the extension of the file:
+            Examples:
+            
+            .bmp
+            .docx
+            .pdf</param>
+            <param name="ssIsAsExpected"></param>
+        </member>
+    </members>
+</doc>
