@@ -2,14 +2,23 @@
 {
     public class SegmentAndOffset
     {
-        public string SegmentStringByte { get; set; }
+        private const int V = 1;
+        private string SegmentStringByte;
+        private int Offset = V;
 
-        public int Offset { get; }
+        public string GetSegmentStringByte() { return SegmentStringByte; }
 
-        public SegmentAndOffset(string SegmentStringByte, int Offset)
+        public void SetSegmentStringByte(string SegmentStringByte)
         {
             this.SegmentStringByte = SegmentStringByte;
+        }
+
+        public int GetOffset() { return Offset; }
+
+        public void SetOffset(int Offset)
+        {
             this.Offset = Offset;
         }
+
     }
 }

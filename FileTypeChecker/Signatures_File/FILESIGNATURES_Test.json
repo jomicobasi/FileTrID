@@ -1,0 +1,15 @@
+[
+  {
+    "FileTypeDescriptions": [
+      "JPEG2000 image files"
+    ],
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 0C 6A 50 20 20"
+      }
+    ],
+    "Extensions": [
+      "JP2"
+    ]
+  }
+]

@@ -4,17 +4,11 @@ namespace FileTypeChecker
 {
     public class FileTypeSpecifications
     {
-        public IList<string> FileDescriptions { get; }
+        public List<string> FileTypeDescriptions { get; set; }
 
-        public IList<SegmentAndOffset> SegmentBytesAndOffset { get; }
+        public List<SegmentAndOffset> SegmentBytesAndOffset { get; set; }
 
-        public IList<string> Extensions { get; }
+        public List<string> Extensions { get; set; }
 
-        public FileTypeSpecifications(IList<string> FileTypeDescriptions, IList<SegmentAndOffset> SegmentBytes, IList<string> Extensions)
-        {
-            FileDescriptions = FileTypeDescriptions;
-            SegmentBytesAndOffset = SegmentBytes;
-            this.Extensions = Extensions;
-        }
     }
 }

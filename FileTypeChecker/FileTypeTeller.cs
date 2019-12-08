@@ -1,8 +1,7 @@
 ﻿using FileTypeChecker.Properties;
-using Newtonsoft.Json;
+using System.Text.Json;
 using System;
 using System.Collections.Generic;
-using System.IO;
 
 [assembly: CLSCompliant(true)]
 
@@ -10,31 +9,26 @@ namespace FileTypeChecker
 {
     public class FileTypeTeller
     {
-        private readonly CollectionFileType KnownFileSignatures;
+        private readonly CollectionFileType KnownFileSignatures = new CollectionFileType();
 
         private MinimumStreamTargetFile MSTF;
 
         public FileTypeTeller()
         {
-            List<FileTypeSpecifications> JSONFileSpecs = JsonConvert.DeserializeObject<List<FileTypeSpecifications>>(Resources.FILESIGNATURES_JSON);
+            List<FileTypeSpecifications> JSONFileSpecs = JsonSerializer.Deserialize<List<FileTypeSpecifications>>(Resources.FILESIGNATURES_Test);
             foreach (var spec in JSONFileSpecs)
             {
                 List<MatchByteSegment> OneFileByteSegments = new List<MatchByteSegment>();
-                foreach (SegmentAndOffset SegByteOff in GetSegmentBytes(spec))
+                foreach (SegmentAndOffset SegByteOff in spec.SegmentBytesAndOffset)
                 {
                     OneFileByteSegments.Add(new MatchByteSegment(
-                        Array.ConvertAll(SegByteOff.SegmentStringByte.Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16)), SegByteOff.Offset)
+                        Array.ConvertAll(SegByteOff.GetSegmentStringByte().Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16)), SegByteOff.GetOffset())
                     );
                 }
-                KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileDescriptions), "." + string.Join(",", spec.Extensions),
+                KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileTypeDescriptions), "." + string.Join(",", spec.Extensions),
                             new FuzzyFileTypeMatcher(OneFileByteSegments)));
             }
             KnownFileSignatures.SortListBySegmentBytesLengthDescendently();
-        }
-
-        private static IList<SegmentAndOffset> GetSegmentBytes(FileTypeSpecifications spec)
-        {
-            return spec.SegmentBytesAndOffset;
         }
 
         public FileTypeTeller(CollectionFileType KnownFileSignatures)

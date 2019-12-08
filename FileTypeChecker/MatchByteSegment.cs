@@ -6,10 +6,10 @@
 
         public int Offset { get; }
 
-        public MatchByteSegment(byte[] byteString, int offset = 0)
+        public MatchByteSegment(byte[] ByteString, int Offset = 0)
         {
-            Offset = offset;
-            ByteString = byteString;
+            this.Offset = Offset;
+            this.ByteString = ByteString;
         }
 
         public byte[] GetByteSegment() { return ByteString; }

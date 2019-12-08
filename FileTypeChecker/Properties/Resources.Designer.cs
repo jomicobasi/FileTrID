@@ -104,5 +104,43 @@ namespace FileTypeChecker.Properties {
                 return ResourceManager.GetString("FILESIGNATURES_JSON", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [
+        ///  {
+        ///    &quot;FileTypeDescriptions&quot;: [
+        ///      &quot;JPEG2000 image files&quot;
+        ///    ],
+        ///    &quot;SegmentBytes&quot;: [
+        ///      &quot;00 00 00 0C 6A 50 20 20&quot;
+        ///    ],
+        ///    &quot;Extensions&quot;: [
+        ///      &quot;JP2&quot;
+        ///    ]
+        ///  },
+        ///  {
+        ///    &quot;FileTypeDescriptions&quot;: [
+        ///      &quot;3GPP multimedia files&quot;
+        ///    ],
+        ///    &quot;SegmentBytes&quot;: [
+        ///      &quot;00 00 00 14 66 74 79 70&quot;
+        ///    ],
+        ///    &quot;Extensions&quot;: [
+        ///      &quot;3GP&quot;
+        ///    ]
+        ///  },
+        ///  {
+        ///    &quot;FileTypeDescriptions&quot;: [
+        ///      &quot;MPEG-4 v1&quot;
+        ///    ],
+        ///    &quot;SegmentBytes&quot;: [
+        ///      &quot;00 00 00 14 66 74 79 70 69 73 6F 6D&quot;
+        ///    ],        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string FILESIGNATURES_Test {
+            get {
+                return ResourceManager.GetString("FILESIGNATURES_Test", resourceCulture);
+            }
+        }
     }
 }
