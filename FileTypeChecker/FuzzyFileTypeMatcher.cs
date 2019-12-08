@@ -1,49 +1,33 @@
-﻿using System.IO;
-using System.Resources;
-using System.Globalization;
+﻿using System.Collections.Generic;
 
 namespace FileTypeChecker
 {
-    public class FuzzyFileTypeMatcher : FileTypeMatcher
+    public class FuzzyFileTypeMatcher
     {
-        private readonly OptionStream option;
-        private readonly ResourceManager rm = new ResourceManager("rmc", typeof(FileTypeMatcher).Assembly);
-
-        private readonly MatchByteSegment MatchByteSegment;
-
-        public FuzzyFileTypeMatcher(OptionStream option, MatchByteSegment MatchByteSegment)
+        public FuzzyFileTypeMatcher(List<MatchByteSegment> MatchByteSegmentList)
         {
-            this.MatchByteSegment = MatchByteSegment;
-            this.option = option;
+            LisMatchByteSegment = MatchByteSegmentList;
         }
 
-        protected override bool MatchesPrivate(Stream stream)
+        public bool Matches(byte[] StreamMinimumSequence)
         {
+            if (StreamMinimumSequence == null) return false;
             bool AreBytesCorrectSoFar = true;
-            if (stream == null || stream.ReadByte() == -1) throw new System.ArgumentException(rm.GetString("StreamErrorMessage", CultureInfo.CurrentCulture), nameof(stream));
-
-            if (stream.Position != 0 && option == OptionStream.StartFromBeginOfFile)
+            foreach (var SSB in LisMatchByteSegment)
             {
-                stream.Seek(MatchByteSegment.Offset, SeekOrigin.Begin);
-            } else if (stream.Position != 0 && option == OptionStream.StartFromEndOfFile)
-            {
-                stream.Seek(-(MatchByteSegment.Offset + MatchByteSegment.GetByteSegment().Length), SeekOrigin.End);
-            }
-            foreach (var b in MatchByteSegment.GetByteSegment())
-            {
-                var c = stream.ReadByte();
-                if (c == -1 || (c != b))
+                byte[] SignatureSequence = SSB.GetByteSegment();
+                for (int i = 0; i < StreamMinimumSequence.Length; ++i)
                 {
-                    AreBytesCorrectSoFar = false;
-                    break;
+                    if (StreamMinimumSequence[i] != SignatureSequence[i])
+                    {
+                        AreBytesCorrectSoFar = false;
+                        break;
+                    }
                 }
             }
             return AreBytesCorrectSoFar;
         }
 
-        public override byte[] GetMatchingBytes()
-        {
-            return MatchByteSegment.GetByteSegment();
-        }
+        public List<MatchByteSegment> LisMatchByteSegment { get; }
     }
 }

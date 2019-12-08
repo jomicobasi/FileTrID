@@ -1,5 +1,7 @@
 ﻿using FileTypeChecker.Properties;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 [assembly: CLSCompliant(true)]
@@ -10,22 +12,29 @@ namespace FileTypeChecker
     {
         private readonly CollectionFileType KnownFileSignatures;
 
+        private MinimumStreamTargetFile MSTF;
+
         public FileTypeTeller()
         {
-            KnownFileSignatures = new CollectionFileType();
-            string[] lines = Resources.FILESIGNATURES.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
-            foreach (string line in lines)
+            List<FileTypeSpecifications> JSONFileSpecs = JsonConvert.DeserializeObject<List<FileTypeSpecifications>>(Resources.FILESIGNATURES_JSON);
+            foreach (var spec in JSONFileSpecs)
             {
-                string[] LineFields = line.Split(',');
-                byte[] SignatureBytes = Array.ConvertAll(LineFields[1].Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16));
-                string[] ExtensionArr = LineFields[2].Split('|');
-                foreach (string ext in ExtensionArr)
+                List<MatchByteSegment> OneFileByteSegments = new List<MatchByteSegment>();
+                foreach (SegmentAndOffset SegByteOff in GetSegmentBytes(spec))
                 {
-                    KnownFileSignatures.AddFileType(new FileType(LineFields[0], "." + ext.ToLower(), 
-                        new FuzzyFileTypeMatcher(FileTypeMatcher.OptionStream.StartFromBeginOfFile, new MatchByteSegment(SignatureBytes))));
+                    OneFileByteSegments.Add(new MatchByteSegment(
+                        Array.ConvertAll(SegByteOff.SegmentStringByte.Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16)), SegByteOff.Offset)
+                    );
                 }
+                KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileDescriptions), "." + string.Join(",", spec.Extensions),
+                            new FuzzyFileTypeMatcher(OneFileByteSegments)));
             }
             KnownFileSignatures.SortListBySegmentBytesLengthDescendently();
+        }
+
+        private static IList<SegmentAndOffset> GetSegmentBytes(FileTypeSpecifications spec)
+        {
+            return spec.SegmentBytesAndOffset;
         }
 
         public FileTypeTeller(CollectionFileType KnownFileSignatures)
@@ -36,22 +45,19 @@ namespace FileTypeChecker
         public CollectionFileType GetFileExtension(byte[] rawContent)
         {
             CollectionFileType FileTypeTargets = new CollectionFileType();
-            using (MemoryStream fileContent = new MemoryStream(rawContent))
+
+            int MaxSizematch = 0;
+            foreach (FileType CurrFileType in KnownFileSignatures)
             {
-                int MaxSizematch = 0;
-                foreach (FileType CurrFileType in KnownFileSignatures)
+                int MAX_LENGTH = CurrFileType.GetMaxSignatureLength();
+                if (MaxSizematch <= MAX_LENGTH)
                 {
-                    if (MaxSizematch <= CurrFileType.FileTypeMatcher.GetMatchingBytes().Length && CurrFileType.Matches(fileContent))
-                    {
-                        FileTypeTargets.AddFileType(CurrFileType);
-                        MaxSizematch = CurrFileType.FileTypeMatcher.GetMatchingBytes().Length;
-                    }
+                    FileTypeTargets.AddFileType(CurrFileType);
+                    MaxSizematch = MAX_LENGTH;
                 }
             }
-            if (FileTypeTargets.List.Count == 0) { 
-                return new CollectionFileType( new[] { FileType.Unknown });
-            }
-            return FileTypeTargets;
+            MSTF = new MinimumStreamTargetFile(rawContent, MaxSizematch, FileTypeTargets); 
+            return MSTF.GetMatchingFileTypes();
         }
 
         public bool IsFileExtensionCorrect(string extension, byte[] rawContent)
@@ -70,16 +76,14 @@ namespace FileTypeChecker
             {
                 return false;
             }
-            using (MemoryStream fileContent = new MemoryStream(rawContent))
+            foreach (FileType FT in FileTypeTargets)
             {
-                foreach (FileType FT in FileTypeTargets)
+                if (FT.Matches(rawContent))
                 {
-                    if (FT.Matches(fileContent))
-                    {
-                        return true;
-                    }
+                    return true;
                 }
             }
+
             return false;
         }
     }

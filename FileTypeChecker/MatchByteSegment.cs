@@ -14,5 +14,7 @@
 
         public byte[] GetByteSegment() { return ByteString; }
 
+        public int ByteSegmentTotalLength() => Offset + ByteString.Length;
+
     }
 }

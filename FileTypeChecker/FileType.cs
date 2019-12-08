@@ -10,23 +10,34 @@ namespace FileTypeChecker
 
         public static FileType Unknown { get; } = new FileType("Unknown File Extension", ".unknown", null);
 
-        public FileTypeMatcher FileTypeMatcher { get; }
+        public FuzzyFileTypeMatcher FuzzyFileTypeMatcher { get; }
 
-        public FileType(string ContentName, string Extension, FileTypeMatcher FileTypeMatcher)
+        public string ExtraMetadata { get; }
+
+        public FileType(string ContentName, string Extension, FuzzyFileTypeMatcher FuzzyFileTypeMatcher)
         {
             this.ContentName = ContentName;
             this.Extension = Extension;
-            this.FileTypeMatcher = FileTypeMatcher;
+            this.FuzzyFileTypeMatcher = FuzzyFileTypeMatcher;
         }
 
-        public bool Matches(Stream stream)
+        public bool Matches(byte[] StreamMinimumMatch)
         {
-            return LoopMatchers(stream);
+            return FuzzyFileTypeMatcher.Matches(StreamMinimumMatch);
         }
 
-        public bool LoopMatchers(Stream stream)
+        public int GetMaxSignatureLength()
         {
-            return FileTypeMatcher.Matches(stream);
+            int MAX_LENGTH_SIG = 0;
+            foreach (var FTM in FuzzyFileTypeMatcher.LisMatchByteSegment)
+            {
+                if (FTM.ByteSegmentTotalLength() > MAX_LENGTH_SIG)
+                {
+                    MAX_LENGTH_SIG = FTM.GetByteSegment().Length + FTM.Offset;
+                }
+            }
+            return MAX_LENGTH_SIG;
         }
+
     }
 }
