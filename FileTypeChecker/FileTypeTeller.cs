@@ -22,7 +22,7 @@ namespace FileTypeChecker
                 foreach (SegmentAndOffset SegByteOff in spec.SegmentBytesAndOffset)
                 {
                     OneFileByteSegments.Add(new MatchByteSegment(
-                        Array.ConvertAll(SegByteOff.GetSegmentStringByte().Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16)), SegByteOff.GetOffset())
+                        Array.ConvertAll(SegByteOff.SegmentStringByte.Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16)), SegByteOff.Offset)
                     );
                 }
                 KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileTypeDescriptions), "." + string.Join(",", spec.Extensions),
