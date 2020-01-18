@@ -2,8 +2,6 @@
 using System.IO;
 using NUnit.Framework;
 using FileTypeChecker.Tests.Properties;
-using System.Globalization;
-using System;
 
 namespace FileTypeChecker.Tests
 {
