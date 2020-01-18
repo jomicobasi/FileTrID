@@ -3,6 +3,6 @@
     public class SegmentAndOffset
     {
         public string SegmentStringByte { get; set; }
-        public int Offset { get; set; } = 10;
+        public int Offset { get; set; } = 0;
     }
 }

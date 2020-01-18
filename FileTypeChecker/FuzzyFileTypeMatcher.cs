@@ -16,7 +16,7 @@ namespace FileTypeChecker
             foreach (var SSB in LisMatchByteSegment)
             {
                 byte[] SignatureSequence = SSB.GetByteSegment();
-                for (int i = 0; i < StreamMinimumSequence.Length; ++i)
+                for (int i = 0; i < SignatureSequence.Length; ++i)
                 {
                     if (StreamMinimumSequence[i] != SignatureSequence[i])
                     {

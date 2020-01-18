@@ -3,8 +3,10 @@
     "FileTypeDescriptions": [
       "JPEG2000 image files"
     ],
-    "SegmentBytes": [
-      "00 00 00 0C 6A 50 20 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 0C 6A 50 20 20"
+      }
     ],
     "Extensions": [
       "JP2"
@@ -14,8 +16,10 @@
     "FileTypeDescriptions": [
       "3GPP multimedia files"
     ],
-    "SegmentBytes": [
-      "00 00 00 14 66 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 14 66 74 79 70"
+      }
     ],
     "Extensions": [
       "3GP"
@@ -25,8 +29,10 @@
     "FileTypeDescriptions": [
       "MPEG-4 v1"
     ],
-    "SegmentBytes": [
-      "00 00 00 14 66 74 79 70 69 73 6F 6D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 14 66 74 79 70 69 73 6F 6D"
+      }
     ],
     "Extensions": [
       "MP4"
@@ -36,8 +42,10 @@
     "FileTypeDescriptions": [
       "3rd Generation Partnership Project 3GPP"
     ],
-    "SegmentBytes": [
-      "00 00 00 14 66 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 14 66 74 79 70"
+      }
     ],
     "Extensions": [
       "3GG",
@@ -49,8 +57,10 @@
     "FileTypeDescriptions": [
       "Windows Disk Image"
     ],
-    "SegmentBytes": [
-      "00 00 00 00 14 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 00 14 00 00 00"
+      }
     ],
     "Extensions": [
       "TBI"
@@ -60,8 +70,10 @@
     "FileTypeDescriptions": [
       "MPEG-4 video_1"
     ],
-    "SegmentBytes": [
-      "00 00 00 18 66 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 18 66 74 79 70"
+      }
     ],
     "Extensions": [
       "3GP5",
@@ -73,8 +85,10 @@
     "FileTypeDescriptions": [
       "MPEG-4 video_2"
     ],
-    "SegmentBytes": [
-      "00 00 00 1C 66 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 1C 66 74 79 70"
+      }
     ],
     "Extensions": [
       "MP4"
@@ -84,8 +98,10 @@
     "FileTypeDescriptions": [
       "3GPP2 multimedia files"
     ],
-    "SegmentBytes": [
-      "00 00 00 20 66 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 20 66 74 79 70"
+      }
     ],
     "Extensions": [
       "3GP"
@@ -95,8 +111,10 @@
     "FileTypeDescriptions": [
       "Apple audio and video"
     ],
-    "SegmentBytes": [
-      "00 00 00 20 66 74 79 70 4D 34 41"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 20 66 74 79 70 4D 34 41"
+      }
     ],
     "Extensions": [
       "M4A"
@@ -106,8 +124,10 @@
     "FileTypeDescriptions": [
       "3rd Generation Partnership Project 3GPP2"
     ],
-    "SegmentBytes": [
-      "00 00 00 20 66 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 20 66 74 79 70"
+      }
     ],
     "Extensions": [
       "3GG",
@@ -120,8 +140,10 @@
       "Windows icon",
       "printer spool file"
     ],
-    "SegmentBytes": [
-      "00 00 01 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 01 00"
+      }
     ],
     "Extensions": [
       "ICO",
@@ -132,8 +154,10 @@
     "FileTypeDescriptions": [
       "MPEG video file"
     ],
-    "SegmentBytes": [
-      "00 00 01 B3"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 01 B3"
+      }
     ],
     "Extensions": [
       "MPG"
@@ -143,8 +167,10 @@
     "FileTypeDescriptions": [
       "DVD video file"
     ],
-    "SegmentBytes": [
-      "00 00 01 BA"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 01 BA"
+      }
     ],
     "Extensions": [
       "MPG",
@@ -155,8 +181,10 @@
     "FileTypeDescriptions": [
       "Windows cursor"
     ],
-    "SegmentBytes": [
-      "00 00 02 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 02 00"
+      }
     ],
     "Extensions": [
       "CUR"
@@ -166,8 +194,10 @@
     "FileTypeDescriptions": [
       "Compucon-Singer embroidery design file"
     ],
-    "SegmentBytes": [
-      "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+      }
     ],
     "Extensions": [
       "XXX"
@@ -177,8 +207,10 @@
     "FileTypeDescriptions": [
       "QuattroPro spreadsheet"
     ],
-    "SegmentBytes": [
-      "00 00 02 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 02 00"
+      }
     ],
     "Extensions": [
       "WB2"
@@ -188,8 +220,10 @@
     "FileTypeDescriptions": [
       "Lotus 1-2-3 (v1)"
     ],
-    "SegmentBytes": [
-      "00 00 02 00 06 04 06 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 02 00 06 04 06 00"
+      }
     ],
     "Extensions": [
       "WK1"
@@ -199,8 +233,10 @@
     "FileTypeDescriptions": [
       "Lotus 1-2-3 (v3)"
     ],
-    "SegmentBytes": [
-      "00 00 1A 00 00 10 04 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 1A 00 00 10 04 00"
+      }
     ],
     "Extensions": [
       "WK3"
@@ -211,8 +247,10 @@
       "Lotus 1-2-3 (v4",
       "v5)"
     ],
-    "SegmentBytes": [
-      "00 00 1A 00 02 10 04 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 1A 00 02 10 04 00"
+      }
     ],
     "Extensions": [
       "WK4",
@@ -223,8 +261,10 @@
     "FileTypeDescriptions": [
       "Lotus 1-2-3 (v9)"
     ],
-    "SegmentBytes": [
-      "00 00 1A 00 05 10 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 1A 00 05 10 04"
+      }
     ],
     "Extensions": [
       "123"
@@ -234,8 +274,10 @@
     "FileTypeDescriptions": [
       "Quark Express (Intel)"
     ],
-    "SegmentBytes": [
-      "00 00 49 49 58 50 52"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 49 49 58 50 52"
+      }
     ],
     "Extensions": [
       "QXD"
@@ -245,8 +287,10 @@
     "FileTypeDescriptions": [
       "Quark Express (Motorola)"
     ],
-    "SegmentBytes": [
-      "00 00 4D 4D 58 50 52"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 00 4D 4D 58 50 52"
+      }
     ],
     "Extensions": [
       "QXD"
@@ -256,8 +300,10 @@
     "FileTypeDescriptions": [
       "TrueType font file"
     ],
-    "SegmentBytes": [
-      "00 01 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 01 00 00 00"
+      }
     ],
     "Extensions": [
       "TTF"
@@ -267,8 +313,10 @@
     "FileTypeDescriptions": [
       "Microsoft Money file"
     ],
-    "SegmentBytes": [
-      "00 01 00 00 4D 53 49 53 41 4D 20 44 61 74 61 62 61 73 65"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 01 00 00 4D 53 49 53 41 4D 20 44 61 74 61 62 61 73 65"
+      }
     ],
     "Extensions": [
       "MNY"
@@ -278,8 +326,10 @@
     "FileTypeDescriptions": [
       "Microsoft Access 2007"
     ],
-    "SegmentBytes": [
-      "00 01 00 00 53 74 61 6E 64 61 72 64 20 41 43 45 20 44 42"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 01 00 00 53 74 61 6E 64 61 72 64 20 41 43 45 20 44 42"
+      }
     ],
     "Extensions": [
       "ACCDB"
@@ -289,8 +339,10 @@
     "FileTypeDescriptions": [
       "Microsoft Access"
     ],
-    "SegmentBytes": [
-      "00 01 00 00 53 74 61 6E 64 61 72 64 20 4A 65 74 20 44 42"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 01 00 00 53 74 61 6E 64 61 72 64 20 4A 65 74 20 44 42"
+      }
     ],
     "Extensions": [
       "MDB"
@@ -300,8 +352,10 @@
     "FileTypeDescriptions": [
       "Palm Address Book Archive"
     ],
-    "SegmentBytes": [
-      "00 01 42 41"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 01 42 41"
+      }
     ],
     "Extensions": [
       "ABA"
@@ -311,8 +365,10 @@
     "FileTypeDescriptions": [
       "Palm DateBook Archive"
     ],
-    "SegmentBytes": [
-      "00 01 42 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 01 42 44"
+      }
     ],
     "Extensions": [
       "DBA"
@@ -322,8 +378,10 @@
     "FileTypeDescriptions": [
       "Netscape Navigator (v4) database"
     ],
-    "SegmentBytes": [
-      "00 06 15 61 00 00 00 02 00 00 04 D2 00 00 10 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 06 15 61 00 00 00 02 00 00 04 D2 00 00 10 00"
+      }
     ],
     "Extensions": [
       "DB"
@@ -333,8 +391,10 @@
     "FileTypeDescriptions": [
       "Mbox table of contents file"
     ],
-    "SegmentBytes": [
-      "00 0D BB A0"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 0D BB A0"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -344,8 +404,10 @@
     "FileTypeDescriptions": [
       "FLIC animation"
     ],
-    "SegmentBytes": [
-      "00 11"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 11"
+      }
     ],
     "Extensions": [
       "FLI"
@@ -355,8 +417,10 @@
     "FileTypeDescriptions": [
       "BIOS details in RAM"
     ],
-    "SegmentBytes": [
-      "00 14 00 00 01 02"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 14 00 00 01 02"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -366,8 +430,10 @@
     "FileTypeDescriptions": [
       "Netscape Communicator (v4) mail folder"
     ],
-    "SegmentBytes": [
-      "00 1E 84 90 00 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "00 1E 84 90 00 00 00 00"
+      }
     ],
     "Extensions": [
       "SNM"
@@ -377,8 +443,10 @@
     "FileTypeDescriptions": [
       "Firebird and Interbase database files"
     ],
-    "SegmentBytes": [
-      "01 00 39 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "01 00 39 30"
+      }
     ],
     "Extensions": [
       "FDB",
@@ -389,8 +457,10 @@
     "FileTypeDescriptions": [
       "The Bat! Message Base Index"
     ],
-    "SegmentBytes": [
-      "01 01 47 19 A4 00 00 00 00 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "01 01 47 19 A4 00 00 00 00 00 00 00"
+      }
     ],
     "Extensions": [
       "TBI"
@@ -400,8 +470,10 @@
     "FileTypeDescriptions": [
       "SQL Data Base"
     ],
-    "SegmentBytes": [
-      "01 0F 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "01 0F 00 00"
+      }
     ],
     "Extensions": [
       "MDF"
@@ -411,8 +483,10 @@
     "FileTypeDescriptions": [
       "Novell LANalyzer capture file"
     ],
-    "SegmentBytes": [
-      "01 10"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "01 10"
+      }
     ],
     "Extensions": [
       "TR1"
@@ -422,8 +496,10 @@
     "FileTypeDescriptions": [
       "Silicon Graphics RGB Bitmap"
     ],
-    "SegmentBytes": [
-      "01 DA 01 01 00 03"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "01 DA 01 01 00 03"
+      }
     ],
     "Extensions": [
       "RGB"
@@ -433,8 +509,10 @@
     "FileTypeDescriptions": [
       "Micrografx vector graphic file"
     ],
-    "SegmentBytes": [
-      "01 FF 02 04 03 02"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "01 FF 02 04 03 02"
+      }
     ],
     "Extensions": [
       "DRW"
@@ -444,8 +522,10 @@
     "FileTypeDescriptions": [
       "Digital Speech Standard file"
     ],
-    "SegmentBytes": [
-      "02 64 73 73"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "02 64 73 73"
+      }
     ],
     "Extensions": [
       "DSS"
@@ -455,8 +535,10 @@
     "FileTypeDescriptions": [
       "MapInfo Native Data Format"
     ],
-    "SegmentBytes": [
-      "03"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "03"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -466,8 +548,10 @@
     "FileTypeDescriptions": [
       "dBASE III file"
     ],
-    "SegmentBytes": [
-      "03"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "03"
+      }
     ],
     "Extensions": [
       "DB3"
@@ -477,8 +561,10 @@
     "FileTypeDescriptions": [
       "Quicken price history"
     ],
-    "SegmentBytes": [
-      "03 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "03 00 00 00"
+      }
     ],
     "Extensions": [
       "QPH"
@@ -488,8 +574,10 @@
     "FileTypeDescriptions": [
       "Approach index file"
     ],
-    "SegmentBytes": [
-      "03 00 00 00 41 50 50 52"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "03 00 00 00 41 50 50 52"
+      }
     ],
     "Extensions": [
       "ADX"
@@ -499,8 +587,10 @@
     "FileTypeDescriptions": [
       "dBASE IV file"
     ],
-    "SegmentBytes": [
-      "04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "04"
+      }
     ],
     "Extensions": [
       "DB4"
@@ -510,8 +600,10 @@
     "FileTypeDescriptions": [
       "INFO2 Windows recycle bin_1"
     ],
-    "SegmentBytes": [
-      "04 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "04 00 00 00"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -521,8 +613,10 @@
     "FileTypeDescriptions": [
       "INFO2 Windows recycle bin_2"
     ],
-    "SegmentBytes": [
-      "05 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "05 00 00 00"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -532,8 +626,10 @@
     "FileTypeDescriptions": [
       "Generic drawing programs"
     ],
-    "SegmentBytes": [
-      "07"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "07"
+      }
     ],
     "Extensions": [
       "DRW"
@@ -543,8 +639,10 @@
     "FileTypeDescriptions": [
       "SkinCrafter skin"
     ],
-    "SegmentBytes": [
-      "07 53 4B 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "07 53 4B 46"
+      }
     ],
     "Extensions": [
       "SKF"
@@ -554,8 +652,10 @@
     "FileTypeDescriptions": [
       "DesignTools 2D Design file"
     ],
-    "SegmentBytes": [
-      "07 64 74 32 64 64 74 64"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "07 64 74 32 64 64 74 64"
+      }
     ],
     "Extensions": [
       "DTD"
@@ -565,8 +665,10 @@
     "FileTypeDescriptions": [
       "dBASE IV or dBFast configuration file"
     ],
-    "SegmentBytes": [
-      "08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "08"
+      }
     ],
     "Extensions": [
       "DB"
@@ -576,8 +678,10 @@
     "FileTypeDescriptions": [
       "ZSOFT Paintbrush file_1"
     ],
-    "SegmentBytes": [
-      "0A 02 01 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0A 02 01 01"
+      }
     ],
     "Extensions": [
       "PCX"
@@ -587,8 +691,10 @@
     "FileTypeDescriptions": [
       "ZSOFT Paintbrush file_2"
     ],
-    "SegmentBytes": [
-      "0A 03 01 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0A 03 01 01"
+      }
     ],
     "Extensions": [
       "PCX"
@@ -598,8 +704,10 @@
     "FileTypeDescriptions": [
       "ZSOFT Paintbrush file_3"
     ],
-    "SegmentBytes": [
-      "0A 05 01 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0A 05 01 01"
+      }
     ],
     "Extensions": [
       "PCX"
@@ -609,8 +717,10 @@
     "FileTypeDescriptions": [
       "MultiBit Bitcoin wallet file"
     ],
-    "SegmentBytes": [
-      "0A 16 6F 72 67 2E 62 69 74 63 6F 69 6E 2E 70 72"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0A 16 6F 72 67 2E 62 69 74 63 6F 69 6E 2E 70 72"
+      }
     ],
     "Extensions": [
       "WALLET"
@@ -620,8 +730,10 @@
     "FileTypeDescriptions": [
       "Monochrome Picture TIFF bitmap"
     ],
-    "SegmentBytes": [
-      "0C ED"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0C ED"
+      }
     ],
     "Extensions": [
       "MP"
@@ -631,8 +743,10 @@
     "FileTypeDescriptions": [
       "DeskMate Document"
     ],
-    "SegmentBytes": [
-      "0D 44 4F 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0D 44 4F 43"
+      }
     ],
     "Extensions": [
       "DOC"
@@ -642,8 +756,10 @@
     "FileTypeDescriptions": [
       "Nero CD compilation"
     ],
-    "SegmentBytes": [
-      "0E 4E 65 72 6F 49 53 4F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0E 4E 65 72 6F 49 53 4F"
+      }
     ],
     "Extensions": [
       "NRI"
@@ -653,8 +769,10 @@
     "FileTypeDescriptions": [
       "DeskMate Worksheet"
     ],
-    "SegmentBytes": [
-      "0E 57 4B 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "0E 57 4B 53"
+      }
     ],
     "Extensions": [
       "WKS"
@@ -664,8 +782,10 @@
     "FileTypeDescriptions": [
       "Easy CD Creator 5 Layout file"
     ],
-    "SegmentBytes": [
-      "10 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "10 00 00 00"
+      }
     ],
     "Extensions": [
       "CL5"
@@ -675,8 +795,10 @@
     "FileTypeDescriptions": [
       "Windows prefetch file"
     ],
-    "SegmentBytes": [
-      "11 00 00 00 53 43 43 41"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "11 00 00 00 53 43 43 41"
+      }
     ],
     "Extensions": [
       "PF"
@@ -686,8 +808,10 @@
     "FileTypeDescriptions": [
       "Lotus Notes database template"
     ],
-    "SegmentBytes": [
-      "1A 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 00 00"
+      }
     ],
     "Extensions": [
       "NTF"
@@ -697,8 +821,10 @@
     "FileTypeDescriptions": [
       "Lotus Notes database"
     ],
-    "SegmentBytes": [
-      "1A 00 00 04 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 00 00 04 00 00"
+      }
     ],
     "Extensions": [
       "NSF"
@@ -709,8 +835,10 @@
       "LH archive (old vers.",
       "type 1)"
     ],
-    "SegmentBytes": [
-      "1A 02"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 02"
+      }
     ],
     "Extensions": [
       "ARC"
@@ -721,8 +849,10 @@
       "LH archive (old vers.",
       "type 2)"
     ],
-    "SegmentBytes": [
-      "1A 03"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 03"
+      }
     ],
     "Extensions": [
       "ARC"
@@ -733,8 +863,10 @@
       "LH archive (old vers.",
       "type 3)"
     ],
-    "SegmentBytes": [
-      "1A 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 04"
+      }
     ],
     "Extensions": [
       "ARC"
@@ -745,8 +877,10 @@
       "LH archive (old vers.",
       "type 4)"
     ],
-    "SegmentBytes": [
-      "1A 08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 08"
+      }
     ],
     "Extensions": [
       "ARC"
@@ -757,8 +891,10 @@
       "LH archive (old vers.",
       "type 5)"
     ],
-    "SegmentBytes": [
-      "1A 09"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 09"
+      }
     ],
     "Extensions": [
       "ARC"
@@ -768,8 +904,10 @@
     "FileTypeDescriptions": [
       "Compressed archive file"
     ],
-    "SegmentBytes": [
-      "1A 0B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 0B"
+      }
     ],
     "Extensions": [
       "PAK"
@@ -779,8 +917,10 @@
     "FileTypeDescriptions": [
       "WinPharoah capture file"
     ],
-    "SegmentBytes": [
-      "1A 35 01 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 35 01 00"
+      }
     ],
     "Extensions": [
       "ETH"
@@ -790,8 +930,10 @@
     "FileTypeDescriptions": [
       "WebM video file"
     ],
-    "SegmentBytes": [
-      "1A 45 DF A3"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 45 DF A3"
+      }
     ],
     "Extensions": [
       "WEBM"
@@ -801,8 +943,10 @@
     "FileTypeDescriptions": [
       "Matroska stream file"
     ],
-    "SegmentBytes": [
-      "1A 45 DF A3 93 42 82 88"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 45 DF A3 93 42 82 88"
+      }
     ],
     "Extensions": [
       "MKV"
@@ -812,8 +956,10 @@
     "FileTypeDescriptions": [
       "Runtime Software disk image"
     ],
-    "SegmentBytes": [
-      "1A 52 54 53 20 43 4F 4D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1A 52 54 53 20 43 4F 4D"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -824,8 +970,10 @@
       "WordStar Version 5.0",
       "6.0 document"
     ],
-    "SegmentBytes": [
-      "1D 7D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1D 7D"
+      }
     ],
     "Extensions": [
       "WS"
@@ -835,8 +983,10 @@
     "FileTypeDescriptions": [
       "GZIP archive file"
     ],
-    "SegmentBytes": [
-      "1F 8B 08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1F 8B 08"
+      }
     ],
     "Extensions": [
       "GZ"
@@ -846,8 +996,10 @@
     "FileTypeDescriptions": [
       "VLC Player Skin file"
     ],
-    "SegmentBytes": [
-      "1F 8B 08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1F 8B 08"
+      }
     ],
     "Extensions": [
       "VLT"
@@ -857,8 +1009,10 @@
     "FileTypeDescriptions": [
       "Compressed tape archive_1"
     ],
-    "SegmentBytes": [
-      "1F 9D 90"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1F 9D 90"
+      }
     ],
     "Extensions": [
       "TAR.Z"
@@ -868,8 +1022,10 @@
     "FileTypeDescriptions": [
       "Compressed tape archive_2"
     ],
-    "SegmentBytes": [
-      "1F A0"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "1F A0"
+      }
     ],
     "Extensions": [
       "TAR.Z"
@@ -879,8 +1035,10 @@
     "FileTypeDescriptions": [
       "MapInfo Sea Chart"
     ],
-    "SegmentBytes": [
-      "21"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "21"
+      }
     ],
     "Extensions": [
       "BSB"
@@ -890,8 +1048,10 @@
     "FileTypeDescriptions": [
       "AIN Compressed Archive"
     ],
-    "SegmentBytes": [
-      "21 12"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "21 12"
+      }
     ],
     "Extensions": [
       "AIN"
@@ -902,8 +1062,10 @@
       "Unix archiver (ar)",
       "MS Program Library Common Object File Format (COFF)"
     ],
-    "SegmentBytes": [
-      "21 3C 61 72 63 68 3E 0A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "21 3C 61 72 63 68 3E 0A"
+      }
     ],
     "Extensions": [
       "LIB"
@@ -913,8 +1075,10 @@
     "FileTypeDescriptions": [
       "Microsoft Outlook Exchange Offline Storage Folder"
     ],
-    "SegmentBytes": [
-      "21 42 44 4E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "21 42 44 4E"
+      }
     ],
     "Extensions": [
       "OST"
@@ -924,8 +1088,10 @@
     "FileTypeDescriptions": [
       "Cerius2 file"
     ],
-    "SegmentBytes": [
-      "23 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 20"
+      }
     ],
     "Extensions": [
       "MSI"
@@ -935,8 +1101,10 @@
     "FileTypeDescriptions": [
       "VMware 4 Virtual Disk description"
     ],
-    "SegmentBytes": [
-      "23 20 44 69 73 6B 20 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 20 44 69 73 6B 20 44"
+      }
     ],
     "Extensions": [
       "VMDK"
@@ -946,8 +1114,10 @@
     "FileTypeDescriptions": [
       "MS Developer Studio project file"
     ],
-    "SegmentBytes": [
-      "23 20 4D 69 63 72 6F 73"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 20 4D 69 63 72 6F 73"
+      }
     ],
     "Extensions": [
       "DSP"
@@ -957,8 +1127,10 @@
     "FileTypeDescriptions": [
       "Adaptive Multi-Rate ACELP Codec (GSM)"
     ],
-    "SegmentBytes": [
-      "23 21 41 4D 52"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 21 41 4D 52"
+      }
     ],
     "Extensions": [
       "AMR"
@@ -968,8 +1140,10 @@
     "FileTypeDescriptions": [
       "Skype audio compression"
     ],
-    "SegmentBytes": [
-      "23 21 53 49 4C 4B 0A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 21 53 49 4C 4B 0A"
+      }
     ],
     "Extensions": [
       "SIL"
@@ -979,8 +1153,10 @@
     "FileTypeDescriptions": [
       "Radiance High Dynamic Range image file"
     ],
-    "SegmentBytes": [
-      "23 3F 52 41 44 49 41 4E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 3F 52 41 44 49 41 4E"
+      }
     ],
     "Extensions": [
       "HDR"
@@ -990,8 +1166,10 @@
     "FileTypeDescriptions": [
       "Brother-Babylock-Bernina Home Embroidery"
     ],
-    "SegmentBytes": [
-      "23 50 45 43 30 30 30 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 50 45 43 30 30 30 31"
+      }
     ],
     "Extensions": [
       "PEC"
@@ -1001,8 +1179,10 @@
     "FileTypeDescriptions": [
       "Brother-Babylock-Bernina Home Embroidery"
     ],
-    "SegmentBytes": [
-      "23 50 45 53 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "23 50 45 53 30"
+      }
     ],
     "Extensions": [
       "PES"
@@ -1012,8 +1192,10 @@
     "FileTypeDescriptions": [
       "SPSS Data file"
     ],
-    "SegmentBytes": [
-      "24 46 4C 32 40 28 23 29"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "24 46 4C 32 40 28 23 29"
+      }
     ],
     "Extensions": [
       "SAV"
@@ -1023,8 +1205,10 @@
     "FileTypeDescriptions": [
       "Encapsulated PostScript file"
     ],
-    "SegmentBytes": [
-      "25 21 50 53 2D 41 64 6F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "25 21 50 53 2D 41 64 6F"
+      }
     ],
     "Extensions": [
       "EPS"
@@ -1034,8 +1218,10 @@
     "FileTypeDescriptions": [
       "PDF file"
     ],
-    "SegmentBytes": [
-      "25 50 44 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "25 50 44 46"
+      }
     ],
     "Extensions": [
       "PDF",
@@ -1046,8 +1232,10 @@
     "FileTypeDescriptions": [
       "Fuzzy bitmap (FBM) file"
     ],
-    "SegmentBytes": [
-      "25 62 69 74 6D 61 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "25 62 69 74 6D 61 70"
+      }
     ],
     "Extensions": [
       "FBM"
@@ -1057,8 +1245,10 @@
     "FileTypeDescriptions": [
       "BinHex 4 Compressed Archive"
     ],
-    "SegmentBytes": [
-      "28 54 68 69 73 20 66 69"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "28 54 68 69 73 20 66 69"
+      }
     ],
     "Extensions": [
       "HQX"
@@ -1068,8 +1258,10 @@
     "FileTypeDescriptions": [
       "Symantec Wise Installer log"
     ],
-    "SegmentBytes": [
-      "2A 2A 2A 20 20 49 6E 73"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2A 2A 2A 20 20 49 6E 73"
+      }
     ],
     "Extensions": [
       "LOG"
@@ -1079,8 +1271,10 @@
     "FileTypeDescriptions": [
       "RealPlayer video file (V11+)"
     ],
-    "SegmentBytes": [
-      "2E 52 45 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2E 52 45 43"
+      }
     ],
     "Extensions": [
       "IVR"
@@ -1090,8 +1284,10 @@
     "FileTypeDescriptions": [
       "RealMedia streaming media"
     ],
-    "SegmentBytes": [
-      "2E 52 4D 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2E 52 4D 46"
+      }
     ],
     "Extensions": [
       "RM",
@@ -1102,8 +1298,10 @@
     "FileTypeDescriptions": [
       "RealAudio file"
     ],
-    "SegmentBytes": [
-      "2E 52 4D 46 00 00 00 12"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2E 52 4D 46 00 00 00 12"
+      }
     ],
     "Extensions": [
       "RA"
@@ -1113,8 +1311,10 @@
     "FileTypeDescriptions": [
       "RealAudio streaming media"
     ],
-    "SegmentBytes": [
-      "2E 72 61 FD 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2E 72 61 FD 00"
+      }
     ],
     "Extensions": [
       "RA"
@@ -1125,8 +1325,10 @@
       "NeXT",
       "Sun Microsystems audio file"
     ],
-    "SegmentBytes": [
-      "2E 73 6E 64"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2E 73 6E 64"
+      }
     ],
     "Extensions": [
       "AU"
@@ -1137,8 +1339,10 @@
       "Thunderbird",
       "Mozilla Mail Summary File"
     ],
-    "SegmentBytes": [
-      "2F 2F 20 3C 21 2D 2D 20 3C 6D 64 62 3A 6D 6F 72 6B 3A 7A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "2F 2F 20 3C 21 2D 2D 20 3C 6D 64 62 3A 6D 6F 72 6B 3A 7A"
+      }
     ],
     "Extensions": [
       "MSF"
@@ -1148,8 +1352,10 @@
     "FileTypeDescriptions": [
       "MS security catalog file"
     ],
-    "SegmentBytes": [
-      "30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "30"
+      }
     ],
     "Extensions": [
       "CAT"
@@ -1159,8 +1365,10 @@
     "FileTypeDescriptions": [
       "Windows Event Viewer file"
     ],
-    "SegmentBytes": [
-      "30 00 00 00 4C 66 4C 65"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "30 00 00 00 4C 66 4C 65"
+      }
     ],
     "Extensions": [
       "EVT"
@@ -1171,8 +1379,10 @@
       "Windows Media Audio",
       "Video File"
     ],
-    "SegmentBytes": [
-      "30 26 B2 75 8E 66 CF 11"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "30 26 B2 75 8E 66 CF 11"
+      }
     ],
     "Extensions": [
       "ASF",
@@ -1184,8 +1394,10 @@
     "FileTypeDescriptions": [
       "National Transfer Format Map"
     ],
-    "SegmentBytes": [
-      "30 31 4F 52 44 4E 41 4E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "30 31 4F 52 44 4E 41 4E"
+      }
     ],
     "Extensions": [
       "NTF"
@@ -1195,8 +1407,10 @@
     "FileTypeDescriptions": [
       "cpio archive"
     ],
-    "SegmentBytes": [
-      "30 37 30 37 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "30 37 30 37 30"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -1206,8 +1420,10 @@
     "FileTypeDescriptions": [
       "MS Write file_1"
     ],
-    "SegmentBytes": [
-      "31 BE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "31 BE"
+      }
     ],
     "Extensions": [
       "WRI"
@@ -1217,8 +1433,10 @@
     "FileTypeDescriptions": [
       "MS Write file_2"
     ],
-    "SegmentBytes": [
-      "32 BE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "32 BE"
+      }
     ],
     "Extensions": [
       "WRI"
@@ -1228,8 +1446,10 @@
     "FileTypeDescriptions": [
       "Pfaff Home Embroidery"
     ],
-    "SegmentBytes": [
-      "32 03 10 00 00 00 00 00 00 00 80 00 00 00 FF 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "32 03 10 00 00 00 00 00 00 00 80 00 00 00 FF 00"
+      }
     ],
     "Extensions": [
       "PCS"
@@ -1239,8 +1459,10 @@
     "FileTypeDescriptions": [
       "Tcpdump capture file"
     ],
-    "SegmentBytes": [
-      "34 CD B2 A1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "34 CD B2 A1"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -1250,8 +1472,10 @@
     "FileTypeDescriptions": [
       "7-Zip compressed file"
     ],
-    "SegmentBytes": [
-      "37 7A BC AF 27 1C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "37 7A BC AF 27 1C"
+      }
     ],
     "Extensions": [
       "7Z"
@@ -1261,8 +1485,10 @@
     "FileTypeDescriptions": [
       "zisofs compressed file"
     ],
-    "SegmentBytes": [
-      "37 E4 53 96 C9 DB D6 07"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "37 E4 53 96 C9 DB D6 07"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -1272,8 +1498,10 @@
     "FileTypeDescriptions": [
       "Photoshop image"
     ],
-    "SegmentBytes": [
-      "38 42 50 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "38 42 50 53"
+      }
     ],
     "Extensions": [
       "PSD"
@@ -1283,8 +1511,10 @@
     "FileTypeDescriptions": [
       "Surfplan kite project file"
     ],
-    "SegmentBytes": [
-      "3A 56 45 52 53 49 4F 4E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3A 56 45 52 53 49 4F 4E"
+      }
     ],
     "Extensions": [
       "SLE"
@@ -1294,8 +1524,10 @@
     "FileTypeDescriptions": [
       "Advanced Stream Redirector"
     ],
-    "SegmentBytes": [
-      "3C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C"
+      }
     ],
     "Extensions": [
       "ASX"
@@ -1305,8 +1537,10 @@
     "FileTypeDescriptions": [
       "BizTalk XML-Data Reduced Schema"
     ],
-    "SegmentBytes": [
-      "3C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C"
+      }
     ],
     "Extensions": [
       "XDR"
@@ -1316,8 +1550,10 @@
     "FileTypeDescriptions": [
       "AOL HTML mail"
     ],
-    "SegmentBytes": [
-      "3C 21 64 6F 63 74 79 70"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 21 64 6F 63 74 79 70"
+      }
     ],
     "Extensions": [
       "DCI"
@@ -1327,8 +1563,10 @@
     "FileTypeDescriptions": [
       "Windows Visual Stylesheet"
     ],
-    "SegmentBytes": [
-      "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D"
+      }
     ],
     "Extensions": [
       "MANIFEST"
@@ -1338,8 +1576,10 @@
     "FileTypeDescriptions": [
       "User Interface Language"
     ],
-    "SegmentBytes": [
-      "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E"
+      }
     ],
     "Extensions": [
       "XML"
@@ -1349,8 +1589,10 @@
     "FileTypeDescriptions": [
       "MMC Snap-in Control file"
     ],
-    "SegmentBytes": [
-      "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72 73 69 6F 6E 3D 22"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72 73 69 6F 6E 3D 22"
+      }
     ],
     "Extensions": [
       "MSC"
@@ -1360,8 +1602,10 @@
     "FileTypeDescriptions": [
       "Csound music"
     ],
-    "SegmentBytes": [
-      "3C 43 73 6F 75 6E 64 53 79 6E 74 68 65 73 69 7A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 43 73 6F 75 6E 64 53 79 6E 74 68 65 73 69 7A"
+      }
     ],
     "Extensions": [
       "CSD"
@@ -1371,8 +1615,10 @@
     "FileTypeDescriptions": [
       "Adobe FrameMaker"
     ],
-    "SegmentBytes": [
-      "3C 4D 61 6B 65 72 46 69"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 4D 61 6B 65 72 46 69"
+      }
     ],
     "Extensions": [
       "FM",
@@ -1383,8 +1629,10 @@
     "FileTypeDescriptions": [
       "GPS Exchange (v1.1)"
     ],
-    "SegmentBytes": [
-      "3C 67 70 78 20 76 65 72 73 69 6F 6E 3D 22 31 2E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 67 70 78 20 76 65 72 73 69 6F 6E 3D 22 31 2E"
+      }
     ],
     "Extensions": [
       "GPX"
@@ -1394,8 +1642,10 @@
     "FileTypeDescriptions": [
       "BASE85 file"
     ],
-    "SegmentBytes": [
-      "3C 7E 36 3C 5C 25 5F 30 67 53 71 68 3B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3C 7E 36 3C 5C 25 5F 30 67 53 71 68 3B"
+      }
     ],
     "Extensions": [
       "B85"
@@ -1405,8 +1655,10 @@
     "FileTypeDescriptions": [
       "Windows Help file_2"
     ],
-    "SegmentBytes": [
-      "3F 5F 03 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "3F 5F 03 00"
+      }
     ],
     "Extensions": [
       "GID",
@@ -1417,8 +1669,10 @@
     "FileTypeDescriptions": [
       "Generic AutoCAD drawing"
     ],
-    "SegmentBytes": [
-      "41 43 31 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 43 31 30"
+      }
     ],
     "Extensions": [
       "DWG"
@@ -1428,8 +1682,10 @@
     "FileTypeDescriptions": [
       "Steganos virtual secure drive"
     ],
-    "SegmentBytes": [
-      "41 43 76"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 43 76"
+      }
     ],
     "Extensions": [
       "SLE"
@@ -1440,8 +1696,10 @@
       "AOL parameter",
       "info files"
     ],
-    "SegmentBytes": [
-      "41 43 53 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 43 53 44"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -1451,8 +1709,10 @@
     "FileTypeDescriptions": [
       "Harvard Graphics symbol graphic"
     ],
-    "SegmentBytes": [
-      "41 4D 59 4F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4D 59 4F"
+      }
     ],
     "Extensions": [
       "SYW"
@@ -1462,8 +1722,10 @@
     "FileTypeDescriptions": [
       "AOL config files"
     ],
-    "SegmentBytes": [
-      "41 4F 4C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C"
+      }
     ],
     "Extensions": [
       "ABI",
@@ -1478,8 +1740,10 @@
     "FileTypeDescriptions": [
       "AOL and AIM buddy list"
     ],
-    "SegmentBytes": [
-      "41 4F 4C 20 46 65 65 64"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C 20 46 65 65 64"
+      }
     ],
     "Extensions": [
       "BAG"
@@ -1489,8 +1753,10 @@
     "FileTypeDescriptions": [
       "AOL address book"
     ],
-    "SegmentBytes": [
-      "41 4F 4C 44 42"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C 44 42"
+      }
     ],
     "Extensions": [
       "ABY"
@@ -1500,8 +1766,10 @@
     "FileTypeDescriptions": [
       "AOL user configuration"
     ],
-    "SegmentBytes": [
-      "41 4F 4C 44 42"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C 44 42"
+      }
     ],
     "Extensions": [
       "IDX"
@@ -1512,8 +1780,10 @@
       "AOL client preferences",
       "settings file"
     ],
-    "SegmentBytes": [
-      "41 4F 4C 49 44 58"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C 49 44 58"
+      }
     ],
     "Extensions": [
       "IND"
@@ -1523,8 +1793,10 @@
     "FileTypeDescriptions": [
       "AOL address book index"
     ],
-    "SegmentBytes": [
-      "41 4F 4C 49 4E 44 45 58"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C 49 4E 44 45 58"
+      }
     ],
     "Extensions": [
       "ABI"
@@ -1534,8 +1806,10 @@
     "FileTypeDescriptions": [
       "AOL personal file cabinet"
     ],
-    "SegmentBytes": [
-      "41 4F 4C 56 4D 31 30 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 4F 4C 56 4D 31 30 30"
+      }
     ],
     "Extensions": [
       "ORG",
@@ -1546,8 +1820,10 @@
     "FileTypeDescriptions": [
       "AVG6 Integrity database"
     ],
-    "SegmentBytes": [
-      "41 56 47 36 5F 49 6E 74"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 56 47 36 5F 49 6E 74"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -1557,8 +1833,10 @@
     "FileTypeDescriptions": [
       "FreeArc compressed file"
     ],
-    "SegmentBytes": [
-      "41 72 43 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "41 72 43 01"
+      }
     ],
     "Extensions": [
       "ARC"
@@ -1568,8 +1846,10 @@
     "FileTypeDescriptions": [
       "NTFS MFT (BAAD)"
     ],
-    "SegmentBytes": [
-      "42 41 41 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 41 41 44"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -1579,8 +1859,10 @@
     "FileTypeDescriptions": [
       "vCard"
     ],
-    "SegmentBytes": [
-      "42 45 47 49 4E 3A 56 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 45 47 49 4E 3A 56 43"
+      }
     ],
     "Extensions": [
       "VCF"
@@ -1590,8 +1872,10 @@
     "FileTypeDescriptions": [
       "Speedtouch router firmware"
     ],
-    "SegmentBytes": [
-      "42 4C 49 32 32 33"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 4C 49 32 32 33"
+      }
     ],
     "Extensions": [
       "BIN",
@@ -1603,8 +1887,10 @@
     "FileTypeDescriptions": [
       "Bitmap image"
     ],
-    "SegmentBytes": [
-      "42 4D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 4D"
+      }
     ],
     "Extensions": [
       "BMP",
@@ -1615,8 +1901,10 @@
     "FileTypeDescriptions": [
       "Palmpilot resource file"
     ],
-    "SegmentBytes": [
-      "42 4F 4F 4B 4D 4F 42 49"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 4F 4F 4B 4D 4F 42 49"
+      }
     ],
     "Extensions": [
       "PRC"
@@ -1626,8 +1914,10 @@
     "FileTypeDescriptions": [
       "Better Portable Graphics"
     ],
-    "SegmentBytes": [
-      "42 50 47 FB"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 50 47 FB"
+      }
     ],
     "Extensions": [
       "BPG"
@@ -1637,8 +1927,10 @@
     "FileTypeDescriptions": [
       "bzip2 compressed archive"
     ],
-    "SegmentBytes": [
-      "42 5A 68"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 5A 68"
+      }
     ],
     "Extensions": [
       "BZ2",
@@ -1651,8 +1943,10 @@
     "FileTypeDescriptions": [
       "Puffer ASCII encrypted archive"
     ],
-    "SegmentBytes": [
-      "42 65 67 69 6E 20 50 75 66 66 65 72"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 65 67 69 6E 20 50 75 66 66 65 72"
+      }
     ],
     "Extensions": [
       "APUF"
@@ -1662,8 +1956,10 @@
     "FileTypeDescriptions": [
       "Blink compressed archive"
     ],
-    "SegmentBytes": [
-      "42 6C 69 6E 6B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "42 6C 69 6E 6B"
+      }
     ],
     "Extensions": [
       "BLI"
@@ -1673,8 +1969,10 @@
     "FileTypeDescriptions": [
       "RagTime document"
     ],
-    "SegmentBytes": [
-      "43 23 2B 44 A4 43 4D A5"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 23 2B 44 A4 43 4D A5"
+      }
     ],
     "Extensions": [
       "RTD"
@@ -1684,8 +1982,10 @@
     "FileTypeDescriptions": [
       "WordPerfect dictionary"
     ],
-    "SegmentBytes": [
-      "43 42 46 49 4C 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 42 46 49 4C 45"
+      }
     ],
     "Extensions": [
       "CBD"
@@ -1695,8 +1995,10 @@
     "FileTypeDescriptions": [
       "ISO-9660 CD Disc Image"
     ],
-    "SegmentBytes": [
-      "43 44 30 30 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 44 30 30 31"
+      }
     ],
     "Extensions": [
       "ISO"
@@ -1706,8 +2008,10 @@
     "FileTypeDescriptions": [
       "Compressed ISO CD image"
     ],
-    "SegmentBytes": [
-      "43 49 53 4F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 49 53 4F"
+      }
     ],
     "Extensions": [
       "CSO"
@@ -1717,8 +2021,10 @@
     "FileTypeDescriptions": [
       "Windows 7 thumbnail"
     ],
-    "SegmentBytes": [
-      "43 4D 4D 4D 15 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 4D 4D 4D 15 00 00 00"
+      }
     ],
     "Extensions": [
       "DB"
@@ -1728,8 +2034,10 @@
     "FileTypeDescriptions": [
       "Corel Binary metafile"
     ],
-    "SegmentBytes": [
-      "43 4D 58 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 4D 58 31"
+      }
     ],
     "Extensions": [
       "CLB"
@@ -1739,8 +2047,10 @@
     "FileTypeDescriptions": [
       "COM+ Catalog"
     ],
-    "SegmentBytes": [
-      "43 4F 4D 2B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 4F 4D 2B"
+      }
     ],
     "Extensions": [
       "CLB"
@@ -1750,8 +2060,10 @@
     "FileTypeDescriptions": [
       "VMware 3 Virtual Disk"
     ],
-    "SegmentBytes": [
-      "43 4F 57 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 4F 57 44"
+      }
     ],
     "Extensions": [
       "VMDK"
@@ -1761,8 +2073,10 @@
     "FileTypeDescriptions": [
       "Corel Photopaint file_1"
     ],
-    "SegmentBytes": [
-      "43 50 54 37 46 49 4C 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 50 54 37 46 49 4C 45"
+      }
     ],
     "Extensions": [
       "CPT"
@@ -1772,8 +2086,10 @@
     "FileTypeDescriptions": [
       "Corel Photopaint file_2"
     ],
-    "SegmentBytes": [
-      "43 50 54 46 49 4C 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 50 54 46 49 4C 45"
+      }
     ],
     "Extensions": [
       "CPT"
@@ -1783,8 +2099,10 @@
     "FileTypeDescriptions": [
       "Win9x registry hive"
     ],
-    "SegmentBytes": [
-      "43 52 45 47"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 52 45 47"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -1794,8 +2112,10 @@
     "FileTypeDescriptions": [
       "Crush compressed archive"
     ],
-    "SegmentBytes": [
-      "43 52 55 53 48 20 76"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 52 55 53 48 20 76"
+      }
     ],
     "Extensions": [
       "CRU"
@@ -1805,8 +2125,10 @@
     "FileTypeDescriptions": [
       "Shockwave Flash file"
     ],
-    "SegmentBytes": [
-      "43 57 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 57 53"
+      }
     ],
     "Extensions": [
       "SWF"
@@ -1816,8 +2138,10 @@
     "FileTypeDescriptions": [
       "Calculux Indoor lighting project file"
     ],
-    "SegmentBytes": [
-      "43 61 6C 63 75 6C 75 78 20 49 6E 64 6F 6F 72 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 61 6C 63 75 6C 75 78 20 49 6E 64 6F 6F 72 20"
+      }
     ],
     "Extensions": [
       "CIN"
@@ -1827,8 +2151,10 @@
     "FileTypeDescriptions": [
       "WhereIsIt Catalog"
     ],
-    "SegmentBytes": [
-      "43 61 74 61 6C 6F 67 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 61 74 61 6C 6F 67 20"
+      }
     ],
     "Extensions": [
       "CTF"
@@ -1838,8 +2164,10 @@
     "FileTypeDescriptions": [
       "IE History file"
     ],
-    "SegmentBytes": [
-      "43 6C 69 65 6E 74 20 55"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 6C 69 65 6E 74 20 55"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -1849,8 +2177,10 @@
     "FileTypeDescriptions": [
       "Creative Voice"
     ],
-    "SegmentBytes": [
-      "43 72 65 61 74 69 76 65 20 56 6F 69 63 65 20 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "43 72 65 61 74 69 76 65 20 56 6F 69 63 65 20 46"
+      }
     ],
     "Extensions": [
       "VOC"
@@ -1860,8 +2190,10 @@
     "FileTypeDescriptions": [
       "DAX Compressed CD image"
     ],
-    "SegmentBytes": [
-      "44 41 58 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 41 58 00"
+      }
     ],
     "Extensions": [
       "DAX"
@@ -1871,8 +2203,10 @@
     "FileTypeDescriptions": [
       "Palm Zire photo database"
     ],
-    "SegmentBytes": [
-      "44 42 46 48"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 42 46 48"
+      }
     ],
     "Extensions": [
       "DB"
@@ -1882,8 +2216,10 @@
     "FileTypeDescriptions": [
       "Amiga DiskMasher compressed archive"
     ],
-    "SegmentBytes": [
-      "44 4D 53 21"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 4D 53 21"
+      }
     ],
     "Extensions": [
       "DMS"
@@ -1893,8 +2229,10 @@
     "FileTypeDescriptions": [
       "Amiga disk file"
     ],
-    "SegmentBytes": [
-      "44 4F 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 4F 53"
+      }
     ],
     "Extensions": [
       "ADF"
@@ -1904,8 +2242,10 @@
     "FileTypeDescriptions": [
       "DVR-Studio stream file"
     ],
-    "SegmentBytes": [
-      "44 56 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 56 44"
+      }
     ],
     "Extensions": [
       "DVR"
@@ -1915,8 +2255,10 @@
     "FileTypeDescriptions": [
       "DVD info file"
     ],
-    "SegmentBytes": [
-      "44 56 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 56 44"
+      }
     ],
     "Extensions": [
       "IFO"
@@ -1926,8 +2268,10 @@
     "FileTypeDescriptions": [
       "Elite Plus Commander game file"
     ],
-    "SegmentBytes": [
-      "45 4C 49 54 45 20 43 6F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 4C 49 54 45 20 43 6F"
+      }
     ],
     "Extensions": [
       "CDR"
@@ -1938,8 +2282,10 @@
       "VideoVCD",
       "VCDImager file"
     ],
-    "SegmentBytes": [
-      "45 4E 54 52 59 56 43 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 4E 54 52 59 56 43 44"
+      }
     ],
     "Extensions": [
       "VCD"
@@ -1949,8 +2295,10 @@
     "FileTypeDescriptions": [
       "EasyRecovery Saved State file"
     ],
-    "SegmentBytes": [
-      "45 52 46 53 53 41 56 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 52 46 53 53 41 56 45"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -1960,8 +2308,10 @@
     "FileTypeDescriptions": [
       "DST Compression"
     ],
-    "SegmentBytes": [
-      "44 53 54 62"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "44 53 54 62"
+      }
     ],
     "Extensions": [
       "DST"
@@ -1971,8 +2321,10 @@
     "FileTypeDescriptions": [
       "MS Document Imaging file"
     ],
-    "SegmentBytes": [
-      "45 50"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 50"
+      }
     ],
     "Extensions": [
       "MDI"
@@ -1982,8 +2334,10 @@
     "FileTypeDescriptions": [
       "Expert Witness Compression Format"
     ],
-    "SegmentBytes": [
-      "45 56 46 09 0D 0A FF 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 56 46 09 0D 0A FF 00"
+      }
     ],
     "Extensions": [
       "E01"
@@ -1993,8 +2347,10 @@
     "FileTypeDescriptions": [
       "EnCase Evidence File Format V2"
     ],
-    "SegmentBytes": [
-      "45 56 46 32 0D 0A 81"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 56 46 32 0D 0A 81"
+      }
     ],
     "Extensions": [
       "Ex01"
@@ -2004,8 +2360,10 @@
     "FileTypeDescriptions": [
       "Windows Vista event log"
     ],
-    "SegmentBytes": [
-      "45 6C 66 46 69 6C 65 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 6C 66 46 69 6C 65 00"
+      }
     ],
     "Extensions": [
       "EVTX"
@@ -2015,8 +2373,10 @@
     "FileTypeDescriptions": [
       "QuickBooks backup"
     ],
-    "SegmentBytes": [
-      "45 86 00 00 06 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "45 86 00 00 06 00"
+      }
     ],
     "Extensions": [
       "QBB"
@@ -2026,8 +2386,10 @@
     "FileTypeDescriptions": [
       "MS Fax Cover Sheet"
     ],
-    "SegmentBytes": [
-      "46 41 58 43 4F 56 45 52"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 41 58 43 4F 56 45 52"
+      }
     ],
     "Extensions": [
       "CPE"
@@ -2037,8 +2399,10 @@
     "FileTypeDescriptions": [
       "Fiasco database definition file"
     ],
-    "SegmentBytes": [
-      "46 44 42 48 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 44 42 48 00"
+      }
     ],
     "Extensions": [
       "FDB"
@@ -2048,8 +2412,10 @@
     "FileTypeDescriptions": [
       "NTFS MFT (FILE)"
     ],
-    "SegmentBytes": [
-      "46 49 4C 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 49 4C 45"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -2059,8 +2425,10 @@
     "FileTypeDescriptions": [
       "Flash video file"
     ],
-    "SegmentBytes": [
-      "46 4C 56"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 4C 56"
+      }
     ],
     "Extensions": [
       "FLV"
@@ -2070,8 +2438,10 @@
     "FileTypeDescriptions": [
       "Audio Interchange File"
     ],
-    "SegmentBytes": [
-      "46 4F 52 4D 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 4F 52 4D 00"
+      }
     ],
     "Extensions": [
       "AIFF"
@@ -2081,8 +2451,10 @@
     "FileTypeDescriptions": [
       "DAKX Compressed Audio"
     ],
-    "SegmentBytes": [
-      "46 4F 52 4D 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 4F 52 4D 00"
+      }
     ],
     "Extensions": [
       "DAX"
@@ -2092,8 +2464,10 @@
     "FileTypeDescriptions": [
       "Shockwave Flash player"
     ],
-    "SegmentBytes": [
-      "46 57 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 57 53"
+      }
     ],
     "Extensions": [
       "SWF"
@@ -2103,8 +2477,10 @@
     "FileTypeDescriptions": [
       "Generic e-mail_2"
     ],
-    "SegmentBytes": [
-      "46 72 6F 6D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "46 72 6F 6D"
+      }
     ],
     "Extensions": [
       "EML"
@@ -2114,8 +2490,10 @@
     "FileTypeDescriptions": [
       "GIF file"
     ],
-    "SegmentBytes": [
-      "47 49 46 38"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "47 49 46 38"
+      }
     ],
     "Extensions": [
       "GIF"
@@ -2125,8 +2503,10 @@
     "FileTypeDescriptions": [
       "GIMP pattern file"
     ],
-    "SegmentBytes": [
-      "47 50 41 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "47 50 41 54"
+      }
     ],
     "Extensions": [
       "PAT"
@@ -2136,8 +2516,10 @@
     "FileTypeDescriptions": [
       "Show Partner graphics file"
     ],
-    "SegmentBytes": [
-      "47 58 32"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "47 58 32"
+      }
     ],
     "Extensions": [
       "GX2"
@@ -2147,8 +2529,10 @@
     "FileTypeDescriptions": [
       "Genetec video archive"
     ],
-    "SegmentBytes": [
-      "47 65 6E 65 74 65 63 20 4F 6D 6E 69 63 61 73 74"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "47 65 6E 65 74 65 63 20 4F 6D 6E 69 63 61 73 74"
+      }
     ],
     "Extensions": [
       "G64"
@@ -2158,8 +2542,10 @@
     "FileTypeDescriptions": [
       "SAS Transport dataset"
     ],
-    "SegmentBytes": [
-      "48 45 41 44 45 52 20 52 45 43 4F 52 44 2A 2A 2A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "48 45 41 44 45 52 20 52 45 43 4F 52 44 2A 2A 2A"
+      }
     ],
     "Extensions": [
       "XPT"
@@ -2169,8 +2555,10 @@
     "FileTypeDescriptions": [
       "Harvard Graphics presentation file"
     ],
-    "SegmentBytes": [
-      "48 48 47 42 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "48 48 47 42 31"
+      }
     ],
     "Extensions": [
       "SH3"
@@ -2180,8 +2568,10 @@
     "FileTypeDescriptions": [
       "TIFF file_1"
     ],
-    "SegmentBytes": [
-      "49 20 49"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 20 49"
+      }
     ],
     "Extensions": [
       "TIF",
@@ -2192,8 +2582,10 @@
     "FileTypeDescriptions": [
       "MP3 audio file"
     ],
-    "SegmentBytes": [
-      "49 44 33"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 44 33"
+      }
     ],
     "Extensions": [
       "MP3"
@@ -2203,8 +2595,10 @@
     "FileTypeDescriptions": [
       "Sprint Music Store audio"
     ],
-    "SegmentBytes": [
-      "49 44 33 03 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 44 33 03 00 00 00"
+      }
     ],
     "Extensions": [
       "KOZ"
@@ -2214,8 +2608,10 @@
     "FileTypeDescriptions": [
       "Canon RAW file"
     ],
-    "SegmentBytes": [
-      "49 49 1A 00 00 00 48 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 49 1A 00 00 00 48 45"
+      }
     ],
     "Extensions": [
       "CRW"
@@ -2225,8 +2621,10 @@
     "FileTypeDescriptions": [
       "TIFF file_2"
     ],
-    "SegmentBytes": [
-      "49 49 2A 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 49 2A 00"
+      }
     ],
     "Extensions": [
       "TIF",
@@ -2237,8 +2635,10 @@
     "FileTypeDescriptions": [
       "Windows 7 thumbnail_2"
     ],
-    "SegmentBytes": [
-      "49 4D 4D 4D 15 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 4D 4D 4D 15 00 00 00"
+      }
     ],
     "Extensions": [
       "DB"
@@ -2248,8 +2648,10 @@
     "FileTypeDescriptions": [
       "Install Shield compressed file"
     ],
-    "SegmentBytes": [
-      "49 53 63 28"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 53 63 28"
+      }
     ],
     "Extensions": [
       "CAB",
@@ -2260,8 +2662,10 @@
     "FileTypeDescriptions": [
       "MS Reader eBook"
     ],
-    "SegmentBytes": [
-      "49 54 4F 4C 49 54 4C 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 54 4F 4C 49 54 4C 53"
+      }
     ],
     "Extensions": [
       "LIT"
@@ -2271,8 +2675,10 @@
     "FileTypeDescriptions": [
       "MS Compiled HTML Help File"
     ],
-    "SegmentBytes": [
-      "49 54 53 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 54 53 46"
+      }
     ],
     "Extensions": [
       "CHI",
@@ -2283,8 +2689,10 @@
     "FileTypeDescriptions": [
       "Inno Setup Uninstall Log"
     ],
-    "SegmentBytes": [
-      "49 6E 6E 6F 20 53 65 74"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 6E 6E 6F 20 53 65 74"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -2294,8 +2702,10 @@
     "FileTypeDescriptions": [
       "Inter@ctive Pager Backup (BlackBerry file)"
     ],
-    "SegmentBytes": [
-      "49 6E 74 65 72 40 63 74 69 76 65 20 50 61 67 65"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "49 6E 74 65 72 40 63 74 69 76 65 20 50 61 67 65"
+      }
     ],
     "Extensions": [
       "IPD"
@@ -2305,8 +2715,10 @@
     "FileTypeDescriptions": [
       "JARCS compressed archive"
     ],
-    "SegmentBytes": [
-      "4A 41 52 43 53 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4A 41 52 43 53 00"
+      }
     ],
     "Extensions": [
       "JAR"
@@ -2316,8 +2728,10 @@
     "FileTypeDescriptions": [
       "AOL ART file_1"
     ],
-    "SegmentBytes": [
-      "4A 47 03 0E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4A 47 03 0E"
+      }
     ],
     "Extensions": [
       "JG"
@@ -2327,8 +2741,10 @@
     "FileTypeDescriptions": [
       "AOL ART file_2"
     ],
-    "SegmentBytes": [
-      "4A 47 04 0E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4A 47 04 0E"
+      }
     ],
     "Extensions": [
       "JG"
@@ -2338,8 +2754,10 @@
     "FileTypeDescriptions": [
       "VMware 4 Virtual Disk"
     ],
-    "SegmentBytes": [
-      "4B 44 4D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4B 44 4D"
+      }
     ],
     "Extensions": [
       "VMDK"
@@ -2349,8 +2767,10 @@
     "FileTypeDescriptions": [
       "KGB archive"
     ],
-    "SegmentBytes": [
-      "4B 47 42 5F 61 72 63 68"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4B 47 42 5F 61 72 63 68"
+      }
     ],
     "Extensions": [
       "KGB"
@@ -2360,8 +2780,10 @@
     "FileTypeDescriptions": [
       "Win9x printer spool file"
     ],
-    "SegmentBytes": [
-      "4B 49 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4B 49 00 00"
+      }
     ],
     "Extensions": [
       "SHD"
@@ -2371,8 +2793,10 @@
     "FileTypeDescriptions": [
       "KWAJ (compressed) file"
     ],
-    "SegmentBytes": [
-      "4B 57 41 4A 88 F0 27 D1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4B 57 41 4A 88 F0 27 D1"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -2382,8 +2806,10 @@
     "FileTypeDescriptions": [
       "Windows shortcut file"
     ],
-    "SegmentBytes": [
-      "4C 00 00 00 01 14 02 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4C 00 00 00 01 14 02 00"
+      }
     ],
     "Extensions": [
       "LNK"
@@ -2393,8 +2819,10 @@
     "FileTypeDescriptions": [
       "MS COFF relocatable object code"
     ],
-    "SegmentBytes": [
-      "4C 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4C 01"
+      }
     ],
     "Extensions": [
       "OBJ"
@@ -2404,8 +2832,10 @@
     "FileTypeDescriptions": [
       "Tajima emboridery"
     ],
-    "SegmentBytes": [
-      "4C 41 3A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4C 41 3A"
+      }
     ],
     "Extensions": [
       "DST"
@@ -2415,8 +2845,10 @@
     "FileTypeDescriptions": [
       "Windows help file_3"
     ],
-    "SegmentBytes": [
-      "4C 4E 02 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4C 4E 02 00"
+      }
     ],
     "Extensions": [
       "GID",
@@ -2427,8 +2859,10 @@
     "FileTypeDescriptions": [
       "Logical File Evidence Format"
     ],
-    "SegmentBytes": [
-      "4C 56 46 09 0D 0A FF 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4C 56 46 09 0D 0A FF 00"
+      }
     ],
     "Extensions": [
       "E01"
@@ -2438,8 +2872,10 @@
     "FileTypeDescriptions": [
       "Merriam-Webster Pocket Dictionary"
     ],
-    "SegmentBytes": [
-      "4D 2D 57 20 50 6F 63 6B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 2D 57 20 50 6F 63 6B"
+      }
     ],
     "Extensions": [
       "PDB"
@@ -2449,8 +2885,10 @@
     "FileTypeDescriptions": [
       "Mozilla archive"
     ],
-    "SegmentBytes": [
-      "4D 41 52 31 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 41 52 31 00"
+      }
     ],
     "Extensions": [
       "MAR"
@@ -2461,8 +2899,10 @@
       "Microsoft",
       "MSN MARC archive"
     ],
-    "SegmentBytes": [
-      "4D 41 52 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 41 52 43"
+      }
     ],
     "Extensions": [
       "MAR"
@@ -2472,8 +2912,10 @@
     "FileTypeDescriptions": [
       "MAr compressed archive"
     ],
-    "SegmentBytes": [
-      "4D 41 72 30 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 41 72 30 00"
+      }
     ],
     "Extensions": [
       "MAR"
@@ -2483,8 +2925,10 @@
     "FileTypeDescriptions": [
       "TargetExpress target file"
     ],
-    "SegmentBytes": [
-      "4D 43 57 20 54 65 63 68 6E 6F 67 6F 6C 69 65 73"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 43 57 20 54 65 63 68 6E 6F 67 6F 6C 69 65 73"
+      }
     ],
     "Extensions": [
       "MTE"
@@ -2494,8 +2938,10 @@
     "FileTypeDescriptions": [
       "Windows dump file"
     ],
-    "SegmentBytes": [
-      "4D 44 4D 50 93 A7"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 44 4D 50 93 A7"
+      }
     ],
     "Extensions": [
       "DMP",
@@ -2506,8 +2952,10 @@
     "FileTypeDescriptions": [
       "Milestones project management file"
     ],
-    "SegmentBytes": [
-      "4D 49 4C 45 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 49 4C 45 53"
+      }
     ],
     "Extensions": [
       "MLS"
@@ -2517,8 +2965,10 @@
     "FileTypeDescriptions": [
       "Skype localization data file"
     ],
-    "SegmentBytes": [
-      "4D 4C 53 57"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 4C 53 57"
+      }
     ],
     "Extensions": [
       "MLS"
@@ -2528,8 +2978,10 @@
     "FileTypeDescriptions": [
       "TIFF file_3"
     ],
-    "SegmentBytes": [
-      "4D 4D 00 2A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 4D 00 2A"
+      }
     ],
     "Extensions": [
       "TIF",
@@ -2540,8 +2992,10 @@
     "FileTypeDescriptions": [
       "TIFF file_4"
     ],
-    "SegmentBytes": [
-      "4D 4D 00 2B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 4D 00 2B"
+      }
     ],
     "Extensions": [
       "TIF",
@@ -2552,8 +3006,10 @@
     "FileTypeDescriptions": [
       "Yamaha Synthetic music Mobile Application Format"
     ],
-    "SegmentBytes": [
-      "4D 4D 4D 44 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 4D 4D 44 00 00"
+      }
     ],
     "Extensions": [
       "MMF"
@@ -2563,8 +3019,10 @@
     "FileTypeDescriptions": [
       "VMware BIOS state file"
     ],
-    "SegmentBytes": [
-      "4D 52 56 4E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 52 56 4E"
+      }
     ],
     "Extensions": [
       "NVRAM"
@@ -2574,8 +3032,10 @@
     "FileTypeDescriptions": [
       "Microsoft cabinet file"
     ],
-    "SegmentBytes": [
-      "4D 53 43 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 53 43 46"
+      }
     ],
     "Extensions": [
       "CAB"
@@ -2585,8 +3045,10 @@
     "FileTypeDescriptions": [
       "Powerpoint Packaged Presentation"
     ],
-    "SegmentBytes": [
-      "4D 53 43 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 53 43 46"
+      }
     ],
     "Extensions": [
       "PPZ"
@@ -2596,8 +3058,10 @@
     "FileTypeDescriptions": [
       "MS Access Snapshot Viewer file"
     ],
-    "SegmentBytes": [
-      "4D 53 43 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 53 43 46"
+      }
     ],
     "Extensions": [
       "SNP"
@@ -2609,8 +3073,10 @@
       "SPSS",
       "Visual C++ library file"
     ],
-    "SegmentBytes": [
-      "4D 53 46 54 02 00 01 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 53 46 54 02 00 01 00"
+      }
     ],
     "Extensions": [
       "TLB"
@@ -2620,8 +3086,10 @@
     "FileTypeDescriptions": [
       "Microsoft Windows Imaging Format"
     ],
-    "SegmentBytes": [
-      "4D 53 57 49 4D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 53 57 49 4D"
+      }
     ],
     "Extensions": [
       "WIM"
@@ -2631,8 +3099,10 @@
     "FileTypeDescriptions": [
       "Sony Compressed Voice File"
     ],
-    "SegmentBytes": [
-      "4D 53 5F 56 4F 49 43 45"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 53 5F 56 4F 49 43 45"
+      }
     ],
     "Extensions": [
       "CDR",
@@ -2644,8 +3114,10 @@
     "FileTypeDescriptions": [
       "MIDI sound file"
     ],
-    "SegmentBytes": [
-      "4D 54 68 64"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 54 68 64"
+      }
     ],
     "Extensions": [
       "MID",
@@ -2656,8 +3128,10 @@
     "FileTypeDescriptions": [
       "Yamaha Piano"
     ],
-    "SegmentBytes": [
-      "4D 54 68 64"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 54 68 64"
+      }
     ],
     "Extensions": [
       "PCS"
@@ -2667,8 +3141,10 @@
     "FileTypeDescriptions": [
       "CD Stomper Pro label file"
     ],
-    "SegmentBytes": [
-      "4D 56"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 56"
+      }
     ],
     "Extensions": [
       "DSN"
@@ -2678,8 +3154,10 @@
     "FileTypeDescriptions": [
       "Milestones project management file_1"
     ],
-    "SegmentBytes": [
-      "4D 56 32 31 34"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 56 32 31 34"
+      }
     ],
     "Extensions": [
       "MLS"
@@ -2689,8 +3167,10 @@
     "FileTypeDescriptions": [
       "Milestones project management file_2"
     ],
-    "SegmentBytes": [
-      "4D 56 32 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 56 32 43"
+      }
     ],
     "Extensions": [
       "MLS"
@@ -2701,8 +3181,10 @@
       "Windows",
       "DOS executable file"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "COM",
@@ -2719,8 +3201,10 @@
     "FileTypeDescriptions": [
       "MS audio compression manager driver"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "ACM"
@@ -2730,8 +3214,10 @@
     "FileTypeDescriptions": [
       "Library cache file"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "AX"
@@ -2741,8 +3227,10 @@
     "FileTypeDescriptions": [
       "Control panel application"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "CPL"
@@ -2752,8 +3240,10 @@
     "FileTypeDescriptions": [
       "Font file"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "FON"
@@ -2764,8 +3254,10 @@
       "ActiveX",
       "OLE Custom Control"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "OCX"
@@ -2775,8 +3267,10 @@
     "FileTypeDescriptions": [
       "OLE object library"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "OLB"
@@ -2786,8 +3280,10 @@
     "FileTypeDescriptions": [
       "Screen saver"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "SCR"
@@ -2797,8 +3293,10 @@
     "FileTypeDescriptions": [
       "VisualBASIC application"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "VBX"
@@ -2808,8 +3306,10 @@
     "FileTypeDescriptions": [
       "Windows virtual device drivers"
     ],
-    "SegmentBytes": [
-      "4D 5A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A"
+      }
     ],
     "Extensions": [
       "VXD",
@@ -2820,8 +3320,10 @@
     "FileTypeDescriptions": [
       "Acrobat plug-in"
     ],
-    "SegmentBytes": [
-      "4D 5A 90 00 03 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A 90 00 03 00 00 00"
+      }
     ],
     "Extensions": [
       "API"
@@ -2831,8 +3333,10 @@
     "FileTypeDescriptions": [
       "DirectShow filter"
     ],
-    "SegmentBytes": [
-      "4D 5A 90 00 03 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A 90 00 03 00 00 00"
+      }
     ],
     "Extensions": [
       "AX"
@@ -2842,8 +3346,10 @@
     "FileTypeDescriptions": [
       "Audition graphic filter"
     ],
-    "SegmentBytes": [
-      "4D 5A 90 00 03 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A 90 00 03 00 00 00"
+      }
     ],
     "Extensions": [
       "FLT"
@@ -2853,8 +3359,10 @@
     "FileTypeDescriptions": [
       "ZoneAlam data file"
     ],
-    "SegmentBytes": [
-      "4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF"
+      }
     ],
     "Extensions": [
       "ZAP"
@@ -2864,8 +3372,10 @@
     "FileTypeDescriptions": [
       "MS C++ debugging symbols file"
     ],
-    "SegmentBytes": [
-      "4D 69 63 72 6F 73 6F 66 74 20 43 2F 43 2B 2B 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 69 63 72 6F 73 6F 66 74 20 43 2F 43 2B 2B 20"
+      }
     ],
     "Extensions": [
       "PDB"
@@ -2875,8 +3385,10 @@
     "FileTypeDescriptions": [
       "Visual Studio .NET file"
     ],
-    "SegmentBytes": [
-      "4D 69 63 72 6F 73 6F 66 74 20 56 69 73 75 61 6C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 69 63 72 6F 73 6F 66 74 20 56 69 73 75 61 6C"
+      }
     ],
     "Extensions": [
       "SLN"
@@ -2886,8 +3398,10 @@
     "FileTypeDescriptions": [
       "VMapSource GPS Waypoint Database"
     ],
-    "SegmentBytes": [
-      "4D 73 52 63 66"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4D 73 52 63 66"
+      }
     ],
     "Extensions": [
       "GDB"
@@ -2897,8 +3411,10 @@
     "FileTypeDescriptions": [
       "TomTom traffic data"
     ],
-    "SegmentBytes": [
-      "4E 41 56 54 52 41 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4E 41 56 54 52 41 46 46"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -2908,8 +3424,10 @@
     "FileTypeDescriptions": [
       "MS Windows journal"
     ],
-    "SegmentBytes": [
-      "4E 42 2A 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4E 42 2A 00"
+      }
     ],
     "Extensions": [
       "JNT",
@@ -2920,8 +3438,10 @@
     "FileTypeDescriptions": [
       "NES Sound file"
     ],
-    "SegmentBytes": [
-      "4E 45 53 4D 1A 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4E 45 53 4D 1A 01"
+      }
     ],
     "Extensions": [
       "NSF"
@@ -2931,8 +3451,10 @@
     "FileTypeDescriptions": [
       "National Imagery Transmission Format file"
     ],
-    "SegmentBytes": [
-      "4E 49 54 46 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4E 49 54 46 30"
+      }
     ],
     "Extensions": [
       "NTF"
@@ -2942,8 +3464,10 @@
     "FileTypeDescriptions": [
       "Agent newsreader character map"
     ],
-    "SegmentBytes": [
-      "4E 61 6D 65 3A 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4E 61 6D 65 3A 20"
+      }
     ],
     "Extensions": [
       "COD"
@@ -2953,8 +3477,10 @@
     "FileTypeDescriptions": [
       "1Password 4 Cloud Keychain"
     ],
-    "SegmentBytes": [
-      "4F 50 43 4C 44 41 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4F 50 43 4C 44 41 54"
+      }
     ],
     "Extensions": [
       "attachment"
@@ -2964,8 +3490,10 @@
     "FileTypeDescriptions": [
       "Psion Series 3 Database"
     ],
-    "SegmentBytes": [
-      "4F 50 4C 44 61 74 61 62"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4F 50 4C 44 61 74 61 62"
+      }
     ],
     "Extensions": [
       "DBF"
@@ -2975,8 +3503,10 @@
     "FileTypeDescriptions": [
       "Ogg Vorbis Codec compressed file"
     ],
-    "SegmentBytes": [
-      "4F 67 67 53 00 02 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4F 67 67 53 00 02 00 00"
+      }
     ],
     "Extensions": [
       "OGA",
@@ -2990,8 +3520,10 @@
       "Visio",
       "DisplayWrite 4 text file"
     ],
-    "SegmentBytes": [
-      "4F 7B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "4F 7B"
+      }
     ],
     "Extensions": [
       "DW4"
@@ -3001,8 +3533,10 @@
     "FileTypeDescriptions": [
       "Quicken QuickFinder Information File"
     ],
-    "SegmentBytes": [
-      "50 00 00 00 20 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 00 00 00 20 00 00 00"
+      }
     ],
     "Extensions": [
       "IDX"
@@ -3012,8 +3546,10 @@
     "FileTypeDescriptions": [
       "Portable Graymap Graphic"
     ],
-    "SegmentBytes": [
-      "50 35 0A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 35 0A"
+      }
     ],
     "Extensions": [
       "PGM"
@@ -3023,8 +3559,10 @@
     "FileTypeDescriptions": [
       "Quake archive file"
     ],
-    "SegmentBytes": [
-      "50 41 43 4B"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 41 43 4B"
+      }
     ],
     "Extensions": [
       "PAK"
@@ -3034,8 +3572,10 @@
     "FileTypeDescriptions": [
       "Windows memory dump"
     ],
-    "SegmentBytes": [
-      "50 41 47 45 44 55"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 41 47 45 44 55"
+      }
     ],
     "Extensions": [
       "DMP"
@@ -3045,8 +3585,10 @@
     "FileTypeDescriptions": [
       "PAX password protected bitmap"
     ],
-    "SegmentBytes": [
-      "50 41 58"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 41 58"
+      }
     ],
     "Extensions": [
       "PAX"
@@ -3057,8 +3599,10 @@
       "PestPatrol data",
       "scan strings"
     ],
-    "SegmentBytes": [
-      "50 45 53 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 45 53 54"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -3068,8 +3612,10 @@
     "FileTypeDescriptions": [
       "PGP disk image"
     ],
-    "SegmentBytes": [
-      "50 47 50 64 4D 41 49 4E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 47 50 64 4D 41 49 4E"
+      }
     ],
     "Extensions": [
       "PGD"
@@ -3079,8 +3625,10 @@
     "FileTypeDescriptions": [
       "ChromaGraph Graphics Card Bitmap"
     ],
-    "SegmentBytes": [
-      "50 49 43 54 00 08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 49 43 54 00 08"
+      }
     ],
     "Extensions": [
       "IMG"
@@ -3090,8 +3638,10 @@
     "FileTypeDescriptions": [
       "PKZIP archive_1"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "ZIP"
@@ -3101,8 +3651,10 @@
     "FileTypeDescriptions": [
       "MacOS X Dashboard Widget"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "ZIP"
@@ -3112,8 +3664,10 @@
     "FileTypeDescriptions": [
       "MS Office Open XML Format Document"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "DOCX",
@@ -3125,8 +3679,10 @@
     "FileTypeDescriptions": [
       "Java archive_1"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "JAR"
@@ -3136,8 +3692,10 @@
     "FileTypeDescriptions": [
       "Google Earth session file"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "KMZ"
@@ -3147,8 +3705,10 @@
     "FileTypeDescriptions": [
       "KWord document"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "KWD"
@@ -3158,8 +3718,10 @@
     "FileTypeDescriptions": [
       "OpenDocument template"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "ODT",
@@ -3171,8 +3733,10 @@
     "FileTypeDescriptions": [
       "OpenOffice documents"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "SXC",
@@ -3185,8 +3749,10 @@
     "FileTypeDescriptions": [
       "StarOffice spreadsheet"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "SXC"
@@ -3196,8 +3762,10 @@
     "FileTypeDescriptions": [
       "Windows Media compressed skin file"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "WMZ"
@@ -3207,8 +3775,10 @@
     "FileTypeDescriptions": [
       "Mozilla Browser Archive"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "XPI"
@@ -3218,8 +3788,10 @@
     "FileTypeDescriptions": [
       "XML paper specification file"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "XPS"
@@ -3229,8 +3801,10 @@
     "FileTypeDescriptions": [
       "eXact Packager Models"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04"
+      }
     ],
     "Extensions": [
       "XPT"
@@ -3240,8 +3814,10 @@
     "FileTypeDescriptions": [
       "Open Publication Structure eBook"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04 0A 00 02 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04 0A 00 02 00"
+      }
     ],
     "Extensions": [
       "EPUB"
@@ -3251,8 +3827,10 @@
     "FileTypeDescriptions": [
       "ZLock Pro encrypted ZIP"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04 14 00 01 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04 14 00 01 00"
+      }
     ],
     "Extensions": [
       "ZIP"
@@ -3262,8 +3840,10 @@
     "FileTypeDescriptions": [
       "MS Office 2007 documents"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04 14 00 06 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04 14 00 06 00"
+      }
     ],
     "Extensions": [
       "DOCX",
@@ -3275,8 +3855,10 @@
     "FileTypeDescriptions": [
       "Java archive_2"
     ],
-    "SegmentBytes": [
-      "50 4B 03 04 14 00 08 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 03 04 14 00 08 00"
+      }
     ],
     "Extensions": [
       "JAR"
@@ -3286,8 +3868,10 @@
     "FileTypeDescriptions": [
       "PKZIP archive_2"
     ],
-    "SegmentBytes": [
-      "50 4B 05 06"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 05 06"
+      }
     ],
     "Extensions": [
       "ZIP"
@@ -3297,8 +3881,10 @@
     "FileTypeDescriptions": [
       "PKZIP archive_3"
     ],
-    "SegmentBytes": [
-      "50 4B 07 08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4B 07 08"
+      }
     ],
     "Extensions": [
       "ZIP"
@@ -3308,8 +3894,10 @@
     "FileTypeDescriptions": [
       "Windows Program Manager group file"
     ],
-    "SegmentBytes": [
-      "50 4D 43 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4D 43 43"
+      }
     ],
     "Extensions": [
       "GRP"
@@ -3319,8 +3907,10 @@
     "FileTypeDescriptions": [
       "Norton Disk Doctor undo file"
     ],
-    "SegmentBytes": [
-      "50 4E 43 49 55 4E 44 4F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4E 43 49 55 4E 44 4F"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -3330,8 +3920,10 @@
     "FileTypeDescriptions": [
       "Microsoft Windows User State Migration Tool"
     ],
-    "SegmentBytes": [
-      "50 4D 4F 43 43 4D 4F 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 4D 4F 43 43 4D 4F 43"
+      }
     ],
     "Extensions": [
       "PMOCCMOC"
@@ -3341,8 +3933,10 @@
     "FileTypeDescriptions": [
       "Puffer encrypted archive"
     ],
-    "SegmentBytes": [
-      "50 55 46 58"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "50 55 46 58"
+      }
     ],
     "Extensions": [
       "PUF"
@@ -3352,8 +3946,10 @@
     "FileTypeDescriptions": [
       "Qcow Disk Image"
     ],
-    "SegmentBytes": [
-      "51 46 49"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "51 46 49"
+      }
     ],
     "Extensions": [
       "QEMU"
@@ -3363,8 +3959,10 @@
     "FileTypeDescriptions": [
       "Quicken data file"
     ],
-    "SegmentBytes": [
-      "51 57 20 56 65 72 2E 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "51 57 20 56 65 72 2E 20"
+      }
     ],
     "Extensions": [
       "ABD",
@@ -3375,8 +3973,10 @@
     "FileTypeDescriptions": [
       "Shareaza (P2P) thumbnail"
     ],
-    "SegmentBytes": [
-      "52 41 5A 41 54 44 42 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 41 5A 41 54 44 42 31"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -3387,8 +3987,10 @@
       "WinNT Registry",
       "Registry Undo files"
     ],
-    "SegmentBytes": [
-      "52 45 47 45 44 49 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 45 47 45 44 49 54"
+      }
     ],
     "Extensions": [
       "REG",
@@ -3399,8 +4001,10 @@
     "FileTypeDescriptions": [
       "Antenna data file"
     ],
-    "SegmentBytes": [
-      "52 45 56 4E 55 4D 3A 2C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 45 56 4E 55 4D 3A 2C"
+      }
     ],
     "Extensions": [
       "AD"
@@ -3410,8 +4014,10 @@
     "FileTypeDescriptions": [
       "Windows animated cursor"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "ANI"
@@ -3421,8 +4027,10 @@
     "FileTypeDescriptions": [
       "Corel Presentation Exchange metadata"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "CMX"
@@ -3432,8 +4040,10 @@
     "FileTypeDescriptions": [
       "CorelDraw document"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "CDR"
@@ -3443,8 +4053,10 @@
     "FileTypeDescriptions": [
       "Video CD MPEG movie"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -3454,8 +4066,10 @@
     "FileTypeDescriptions": [
       "Micrografx Designer graphic"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "DS4"
@@ -3465,8 +4079,10 @@
     "FileTypeDescriptions": [
       "4X Movie video"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "4XM"
@@ -3476,8 +4092,10 @@
     "FileTypeDescriptions": [
       "Resource Interchange File Format"
     ],
-    "SegmentBytes": [
-      "52 49 46 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 49 46 46"
+      }
     ],
     "Extensions": [
       "AVI",
@@ -3492,8 +4110,10 @@
     "FileTypeDescriptions": [
       "WinNT Netmon capture file"
     ],
-    "SegmentBytes": [
-      "52 54 53 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 54 53 53"
+      }
     ],
     "Extensions": [
       "CAP"
@@ -3503,8 +4123,10 @@
     "FileTypeDescriptions": [
       "WinRAR compressed archive"
     ],
-    "SegmentBytes": [
-      "52 61 72 21 1A 07 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 61 72 21 1A 07 00"
+      }
     ],
     "Extensions": [
       "RAR"
@@ -3514,8 +4136,10 @@
     "FileTypeDescriptions": [
       "Generic e-mail_1"
     ],
-    "SegmentBytes": [
-      "52 65 74 75 72 6E 2D 50"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "52 65 74 75 72 6E 2D 50"
+      }
     ],
     "Extensions": [
       "EML"
@@ -3525,8 +4149,10 @@
     "FileTypeDescriptions": [
       "Underground Audio"
     ],
-    "SegmentBytes": [
-      "53 43 48 6C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 43 48 6C"
+      }
     ],
     "Extensions": [
       "AST"
@@ -3536,8 +4162,10 @@
     "FileTypeDescriptions": [
       "Img Software Bitmap"
     ],
-    "SegmentBytes": [
-      "53 43 4D 49"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 43 4D 49"
+      }
     ],
     "Extensions": [
       "IMG"
@@ -3547,8 +4175,10 @@
     "FileTypeDescriptions": [
       "SMPTE DPX (big endian)"
     ],
-    "SegmentBytes": [
-      "53 44 50 58"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 44 50 58"
+      }
     ],
     "Extensions": [
       "SDPX"
@@ -3558,8 +4188,10 @@
     "FileTypeDescriptions": [
       "Harvard Graphics presentation"
     ],
-    "SegmentBytes": [
-      "53 48 4F 57"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 48 4F 57"
+      }
     ],
     "Extensions": [
       "SHW"
@@ -3569,8 +4201,10 @@
     "FileTypeDescriptions": [
       "Sietronics CPI XRD document"
     ],
-    "SegmentBytes": [
-      "53 49 45 54 52 4F 4E 49"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 49 45 54 52 4F 4E 49"
+      }
     ],
     "Extensions": [
       "CPI"
@@ -3580,8 +4214,10 @@
     "FileTypeDescriptions": [
       "Flexible Image Transport System (FITS) file"
     ],
-    "SegmentBytes": [
-      "53 49 4D 50 4C 45 20 20 3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 49 4D 50 4C 45 20 20 3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54"
+      }
     ],
     "Extensions": [
       "FITS"
@@ -3591,8 +4227,10 @@
     "FileTypeDescriptions": [
       "StuffIt archive"
     ],
-    "SegmentBytes": [
-      "53 49 54 21 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 49 54 21 00"
+      }
     ],
     "Extensions": [
       "SIT"
@@ -3602,8 +4240,10 @@
     "FileTypeDescriptions": [
       "SmartDraw Drawing file"
     ],
-    "SegmentBytes": [
-      "53 4D 41 52 54 44 52 57"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 4D 41 52 54 44 52 57"
+      }
     ],
     "Extensions": [
       "SDR"
@@ -3613,8 +4253,10 @@
     "FileTypeDescriptions": [
       "StorageCraft ShadownProtect backup file"
     ],
-    "SegmentBytes": [
-      "53 50 46 49 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 50 46 49 00"
+      }
     ],
     "Extensions": [
       "SPF"
@@ -3624,8 +4266,10 @@
     "FileTypeDescriptions": [
       "MultiBit Bitcoin blockchain file"
     ],
-    "SegmentBytes": [
-      "53 50 56 42"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 50 56 42"
+      }
     ],
     "Extensions": [
       "SPVB"
@@ -3635,8 +4279,10 @@
     "FileTypeDescriptions": [
       "SQLite database file"
     ],
-    "SegmentBytes": [
-      "53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00"
+      }
     ],
     "Extensions": [
       "DB"
@@ -3646,8 +4292,10 @@
     "FileTypeDescriptions": [
       "DB2 conversion file"
     ],
-    "SegmentBytes": [
-      "53 51 4C 4F 43 4F 4E 56"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 51 4C 4F 43 4F 4E 56"
+      }
     ],
     "Extensions": [
       "CNV"
@@ -3657,8 +4305,10 @@
     "FileTypeDescriptions": [
       "QBASIC SZDD file"
     ],
-    "SegmentBytes": [
-      "53 5A 20 88 F0 27 33 D1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 5A 20 88 F0 27 33 D1"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -3668,8 +4318,10 @@
     "FileTypeDescriptions": [
       "SZDD file format"
     ],
-    "SegmentBytes": [
-      "53 5A 44 44 88 F0 27 33"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 5A 44 44 88 F0 27 33"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -3679,8 +4331,10 @@
     "FileTypeDescriptions": [
       "StuffIt compressed archive"
     ],
-    "SegmentBytes": [
-      "53 74 75 66 66 49 74 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 74 75 66 66 49 74 20"
+      }
     ],
     "Extensions": [
       "SIT"
@@ -3690,8 +4344,10 @@
     "FileTypeDescriptions": [
       "SuperCalc worksheet"
     ],
-    "SegmentBytes": [
-      "53 75 70 65 72 43 61 6C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "53 75 70 65 72 43 61 6C"
+      }
     ],
     "Extensions": [
       "CAL"
@@ -3701,8 +4357,10 @@
     "FileTypeDescriptions": [
       "Wii-GameCube"
     ],
-    "SegmentBytes": [
-      "54 48 50 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "54 48 50 00"
+      }
     ],
     "Extensions": [
       "THP"
@@ -3712,8 +4370,10 @@
     "FileTypeDescriptions": [
       "GNU Info Reader file"
     ],
-    "SegmentBytes": [
-      "54 68 69 73 20 69 73 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "54 68 69 73 20 69 73 20"
+      }
     ],
     "Extensions": [
       "INFO"
@@ -3723,8 +4383,10 @@
     "FileTypeDescriptions": [
       "Unicode extensions"
     ],
-    "SegmentBytes": [
-      "55 43 45 58"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "55 43 45 58"
+      }
     ],
     "Extensions": [
       "UCE"
@@ -3734,8 +4396,10 @@
     "FileTypeDescriptions": [
       "UFA compressed archive"
     ],
-    "SegmentBytes": [
-      "55 46 41 C6 D2 C1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "55 46 41 C6 D2 C1"
+      }
     ],
     "Extensions": [
       "UFA"
@@ -3745,8 +4409,10 @@
     "FileTypeDescriptions": [
       "UFO Capture map file"
     ],
-    "SegmentBytes": [
-      "55 46 4F 4F 72 62 69 74"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "55 46 4F 4F 72 62 69 74"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -3756,8 +4422,10 @@
     "FileTypeDescriptions": [
       "Visual C PreCompiled header"
     ],
-    "SegmentBytes": [
-      "56 43 50 43 48 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "56 43 50 43 48 30"
+      }
     ],
     "Extensions": [
       "PCH"
@@ -3767,8 +4435,10 @@
     "FileTypeDescriptions": [
       "Visual Basic User-defined Control file"
     ],
-    "SegmentBytes": [
-      "56 45 52 53 49 4F 4E 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "56 45 52 53 49 4F 4E 20"
+      }
     ],
     "Extensions": [
       "CTL"
@@ -3778,8 +4448,10 @@
     "FileTypeDescriptions": [
       "MapInfo Interchange Format file"
     ],
-    "SegmentBytes": [
-      "56 65 72 73 69 6F 6E 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "56 65 72 73 69 6F 6E 20"
+      }
     ],
     "Extensions": [
       "MIF"
@@ -3789,8 +4461,10 @@
     "FileTypeDescriptions": [
       "Walkman MP3 file"
     ],
-    "SegmentBytes": [
-      "57 4D 4D 50"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "57 4D 4D 50"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -3800,8 +4474,10 @@
     "FileTypeDescriptions": [
       "WordStar for Windows file"
     ],
-    "SegmentBytes": [
-      "57 53 32 30 30 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "57 53 32 30 30 30"
+      }
     ],
     "Extensions": [
       "WS2"
@@ -3811,8 +4487,10 @@
     "FileTypeDescriptions": [
       "Lotus WordPro file"
     ],
-    "SegmentBytes": [
-      "57 6F 72 64 50 72 6F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "57 6F 72 64 50 72 6F"
+      }
     ],
     "Extensions": [
       "LWP"
@@ -3822,8 +4500,10 @@
     "FileTypeDescriptions": [
       "Exchange e-mail"
     ],
-    "SegmentBytes": [
-      "58 2D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "58 2D"
+      }
     ],
     "Extensions": [
       "EML"
@@ -3833,8 +4513,10 @@
     "FileTypeDescriptions": [
       "Packet sniffer files"
     ],
-    "SegmentBytes": [
-      "58 43 50 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "58 43 50 00"
+      }
     ],
     "Extensions": [
       "CAP"
@@ -3844,8 +4526,10 @@
     "FileTypeDescriptions": [
       "XPCOM libraries"
     ],
-    "SegmentBytes": [
-      "58 50 43 4F 4D 0A 54 79"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "58 50 43 4F 4D 0A 54 79"
+      }
     ],
     "Extensions": [
       "XPT"
@@ -3855,8 +4539,10 @@
     "FileTypeDescriptions": [
       "SMPTE DPX file (little endian)"
     ],
-    "SegmentBytes": [
-      "58 50 44 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "58 50 44 53"
+      }
     ],
     "Extensions": [
       "DPX"
@@ -3866,8 +4552,10 @@
     "FileTypeDescriptions": [
       "MS Publisher"
     ],
-    "SegmentBytes": [
-      "58 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "58 54"
+      }
     ],
     "Extensions": [
       "BDR"
@@ -3877,8 +4565,10 @@
     "FileTypeDescriptions": [
       "ZOO compressed archive"
     ],
-    "SegmentBytes": [
-      "5A 4F 4F 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5A 4F 4F 20"
+      }
     ],
     "Extensions": [
       "ZOO"
@@ -3888,8 +4578,10 @@
     "FileTypeDescriptions": [
       "Macromedia Shockwave Flash"
     ],
-    "SegmentBytes": [
-      "5A 57 53"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5A 57 53"
+      }
     ],
     "Extensions": [
       "SWF"
@@ -3899,8 +4591,10 @@
     "FileTypeDescriptions": [
       "MS Exchange configuration file"
     ],
-    "SegmentBytes": [
-      "5B 47 65 6E 65 72 61 6C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 47 65 6E 65 72 61 6C"
+      }
     ],
     "Extensions": [
       "ECF"
@@ -3910,8 +4604,10 @@
     "FileTypeDescriptions": [
       "Visual C++ Workbench Info File"
     ],
-    "SegmentBytes": [
-      "5B 4D 53 56 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 4D 53 56 43"
+      }
     ],
     "Extensions": [
       "VCW"
@@ -3921,8 +4617,10 @@
     "FileTypeDescriptions": [
       "Dial-up networking file"
     ],
-    "SegmentBytes": [
-      "5B 50 68 6F 6E 65 5D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 50 68 6F 6E 65 5D"
+      }
     ],
     "Extensions": [
       "DUN"
@@ -3932,8 +4630,10 @@
     "FileTypeDescriptions": [
       "Lotus AMI Pro document_1"
     ],
-    "SegmentBytes": [
-      "5B 56 45 52 5D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 56 45 52 5D"
+      }
     ],
     "Extensions": [
       "SAM"
@@ -3943,8 +4643,10 @@
     "FileTypeDescriptions": [
       "VocalTec VoIP media file"
     ],
-    "SegmentBytes": [
-      "5B 56 4D 44 5D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 56 4D 44 5D"
+      }
     ],
     "Extensions": [
       "VMD"
@@ -3954,8 +4656,10 @@
     "FileTypeDescriptions": [
       "Microsoft Code Page Translation file"
     ],
-    "SegmentBytes": [
-      "5B 57 69 6E 64 6F 77 73"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 57 69 6E 64 6F 77 73"
+      }
     ],
     "Extensions": [
       "CPX"
@@ -3965,8 +4669,10 @@
     "FileTypeDescriptions": [
       "Flight Simulator Aircraft Configuration"
     ],
-    "SegmentBytes": [
-      "5B 66 6C 74 73 69 6D 2E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 66 6C 74 73 69 6D 2E"
+      }
     ],
     "Extensions": [
       "CFG"
@@ -3976,8 +4682,10 @@
     "FileTypeDescriptions": [
       "WinAmp Playlist"
     ],
-    "SegmentBytes": [
-      "5B 70 6C 61 79 6C 69 73 74 5D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 70 6C 61 79 6C 69 73 74 5D"
+      }
     ],
     "Extensions": [
       "PLS"
@@ -3987,8 +4695,10 @@
     "FileTypeDescriptions": [
       "Lotus AMI Pro document_2"
     ],
-    "SegmentBytes": [
-      "5B 76 65 72 5D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5B 76 65 72 5D"
+      }
     ],
     "Extensions": [
       "SAM"
@@ -3998,8 +4708,10 @@
     "FileTypeDescriptions": [
       "Husqvarna Designer"
     ],
-    "SegmentBytes": [
-      "5D FC C8 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5D FC C8 00"
+      }
     ],
     "Extensions": [
       "HUS"
@@ -4009,8 +4721,10 @@
     "FileTypeDescriptions": [
       "Jar archive"
     ],
-    "SegmentBytes": [
-      "5F 27 A8 89"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5F 27 A8 89"
+      }
     ],
     "Extensions": [
       "JAR"
@@ -4020,8 +4734,10 @@
     "FileTypeDescriptions": [
       "EnCase case file"
     ],
-    "SegmentBytes": [
-      "5F 43 41 53 45 5F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "5F 43 41 53 45 5F"
+      }
     ],
     "Extensions": [
       "CAS",
@@ -4032,8 +4748,10 @@
     "FileTypeDescriptions": [
       "Compressed archive file"
     ],
-    "SegmentBytes": [
-      "60 EA"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "60 EA"
+      }
     ],
     "Extensions": [
       "ARJ"
@@ -4043,8 +4761,10 @@
     "FileTypeDescriptions": [
       "UUencoded file"
     ],
-    "SegmentBytes": [
-      "62 65 67 69 6E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "62 65 67 69 6E"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4054,8 +4774,10 @@
     "FileTypeDescriptions": [
       "UUencoded BASE64 file"
     ],
-    "SegmentBytes": [
-      "62 65 67 69 6E 2D 62 61 73 65 36 34"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "62 65 67 69 6E 2D 62 61 73 65 36 34"
+      }
     ],
     "Extensions": [
       "b64"
@@ -4065,8 +4787,10 @@
     "FileTypeDescriptions": [
       "Binary property list (plist)"
     ],
-    "SegmentBytes": [
-      "62 70 6C 69 73 74"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "62 70 6C 69 73 74"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4076,8 +4800,10 @@
     "FileTypeDescriptions": [
       "Apple Core Audio File"
     ],
-    "SegmentBytes": [
-      "63 61 66 66"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "63 61 66 66"
+      }
     ],
     "Extensions": [
       "CAF"
@@ -4087,8 +4813,10 @@
     "FileTypeDescriptions": [
       "Virtual PC HD image"
     ],
-    "SegmentBytes": [
-      "63 6F 6E 65 63 74 69 78"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "63 6F 6E 65 63 74 69 78"
+      }
     ],
     "Extensions": [
       "VHD"
@@ -4098,8 +4826,10 @@
     "FileTypeDescriptions": [
       "Photoshop Custom Shape"
     ],
-    "SegmentBytes": [
-      "63 75 73 68 00 00 00 02"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "63 75 73 68 00 00 00 02"
+      }
     ],
     "Extensions": [
       "CSH"
@@ -4110,8 +4840,10 @@
       "Intel PROset",
       "Wireless Profile"
     ],
-    "SegmentBytes": [
-      "64 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "64 00 00 00"
+      }
     ],
     "Extensions": [
       "P10"
@@ -4121,8 +4853,10 @@
     "FileTypeDescriptions": [
       "Dalvik (Android) executable file"
     ],
-    "SegmentBytes": [
-      "64 65 78 0A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "64 65 78 0A"
+      }
     ],
     "Extensions": [
       "dex"
@@ -4132,8 +4866,10 @@
     "FileTypeDescriptions": [
       "Audacity audio file"
     ],
-    "SegmentBytes": [
-      "64 6E 73 2E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "64 6E 73 2E"
+      }
     ],
     "Extensions": [
       "AU"
@@ -4143,8 +4879,10 @@
     "FileTypeDescriptions": [
       "MS Visual Studio workspace file"
     ],
-    "SegmentBytes": [
-      "64 73 77 66 69 6C 65"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "64 73 77 66 69 6C 65"
+      }
     ],
     "Extensions": [
       "DSW"
@@ -4154,8 +4892,10 @@
     "FileTypeDescriptions": [
       "WinNT printer spool file"
     ],
-    "SegmentBytes": [
-      "66 49 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "66 49 00 00"
+      }
     ],
     "Extensions": [
       "SHD"
@@ -4165,8 +4905,10 @@
     "FileTypeDescriptions": [
       "Free Lossless Audio Codec file"
     ],
-    "SegmentBytes": [
-      "66 4C 61 43 00 00 00 22"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "66 4C 61 43 00 00 00 22"
+      }
     ],
     "Extensions": [
       "FLAC"
@@ -4177,8 +4919,10 @@
       "Win2000",
       "XP printer spool file"
     ],
-    "SegmentBytes": [
-      "67 49 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "67 49 00 00"
+      }
     ],
     "Extensions": [
       "SHD"
@@ -4188,8 +4932,10 @@
     "FileTypeDescriptions": [
       "GIMP file"
     ],
-    "SegmentBytes": [
-      "67 69 6d 70 20 78 63 66"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "67 69 6d 70 20 78 63 66"
+      }
     ],
     "Extensions": [
       "XCF"
@@ -4199,8 +4945,10 @@
     "FileTypeDescriptions": [
       "Win Server 2003 printer spool file"
     ],
-    "SegmentBytes": [
-      "68 49 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "68 49 00 00"
+      }
     ],
     "Extensions": [
       "SHD"
@@ -4210,8 +4958,10 @@
     "FileTypeDescriptions": [
       "Skype user data file"
     ],
-    "SegmentBytes": [
-      "6C 33 33 6C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "6C 33 33 6C"
+      }
     ],
     "Extensions": [
       "DBB"
@@ -4221,8 +4971,10 @@
     "FileTypeDescriptions": [
       "MultiBit Bitcoin wallet information"
     ],
-    "SegmentBytes": [
-      "6D 75 6C 74 69 42 69 74 2E 69 6E 66 6F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "6D 75 6C 74 69 42 69 74 2E 69 6E 66 6F"
+      }
     ],
     "Extensions": [
       "INFO"
@@ -4232,8 +4984,10 @@
     "FileTypeDescriptions": [
       "SMS text (SIM)"
     ],
-    "SegmentBytes": [
-      "6F 3C"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "6F 3C"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4243,8 +4997,10 @@
     "FileTypeDescriptions": [
       "1Password 4 Cloud Keychain encrypted data"
     ],
-    "SegmentBytes": [
-      "6F 70 64 61 74 61 30 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "6F 70 64 61 74 61 30 31"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4254,8 +5010,10 @@
     "FileTypeDescriptions": [
       "WinNT registry file"
     ],
-    "SegmentBytes": [
-      "72 65 67 66"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "72 65 67 66"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -4265,8 +5023,10 @@
     "FileTypeDescriptions": [
       "Sonic Foundry Acid Music File"
     ],
-    "SegmentBytes": [
-      "72 69 66 66"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "72 69 66 66"
+      }
     ],
     "Extensions": [
       "AC"
@@ -4276,8 +5036,10 @@
     "FileTypeDescriptions": [
       "RealMedia metafile"
     ],
-    "SegmentBytes": [
-      "72 74 73 70 3A 2F 2F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "72 74 73 70 3A 2F 2F"
+      }
     ],
     "Extensions": [
       "RAM"
@@ -4287,8 +5049,10 @@
     "FileTypeDescriptions": [
       "Allegro Generic Packfile (compressed)"
     ],
-    "SegmentBytes": [
-      "73 6C 68 21"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "73 6C 68 21"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -4298,8 +5062,10 @@
     "FileTypeDescriptions": [
       "Allegro Generic Packfile (uncompressed)"
     ],
-    "SegmentBytes": [
-      "73 6C 68 2E"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "73 6C 68 2E"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -4309,8 +5075,10 @@
     "FileTypeDescriptions": [
       "PalmOS SuperMemo"
     ],
-    "SegmentBytes": [
-      "73 6D 5F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "73 6D 5F"
+      }
     ],
     "Extensions": [
       "PDB"
@@ -4320,8 +5088,10 @@
     "FileTypeDescriptions": [
       "CALS raster bitmap"
     ],
-    "SegmentBytes": [
-      "73 72 63 64 6F 63 69 64"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "73 72 63 64 6F 63 69 64"
+      }
     ],
     "Extensions": [
       "CAL"
@@ -4331,8 +5101,10 @@
     "FileTypeDescriptions": [
       "PowerBASIC Debugger Symbols"
     ],
-    "SegmentBytes": [
-      "73 7A 65 7A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "73 7A 65 7A"
+      }
     ],
     "Extensions": [
       "PDB"
@@ -4342,8 +5114,10 @@
     "FileTypeDescriptions": [
       "OpenEXR bitmap image"
     ],
-    "SegmentBytes": [
-      "76 2F 31 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "76 2F 31 01"
+      }
     ],
     "Extensions": [
       "EXR"
@@ -4353,8 +5127,10 @@
     "FileTypeDescriptions": [
       "Qimage filter"
     ],
-    "SegmentBytes": [
-      "76 32 30 30 33 2E 31 30"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "76 32 30 30 33 2E 31 30"
+      }
     ],
     "Extensions": [
       "FLT"
@@ -4364,8 +5140,10 @@
     "FileTypeDescriptions": [
       "MacOS X image file"
     ],
-    "SegmentBytes": [
-      "78 01 73 0D 62 62 60"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "78 01 73 0D 62 62 60"
+      }
     ],
     "Extensions": [
       "DMG"
@@ -4375,8 +5153,10 @@
     "FileTypeDescriptions": [
       "eXtensible ARchive file"
     ],
-    "SegmentBytes": [
-      "78 61 72 21"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "78 61 72 21"
+      }
     ],
     "Extensions": [
       "XAR"
@@ -4386,8 +5166,10 @@
     "FileTypeDescriptions": [
       "ZoomBrowser Image Index"
     ],
-    "SegmentBytes": [
-      "7A 62 65 78"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7A 62 65 78"
+      }
     ],
     "Extensions": [
       "INFO"
@@ -4397,8 +5179,10 @@
     "FileTypeDescriptions": [
       "Windows application log"
     ],
-    "SegmentBytes": [
-      "7B 0D 0A 6F 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7B 0D 0A 6F 20"
+      }
     ],
     "Extensions": [
       "LGC",
@@ -4409,8 +5193,10 @@
     "FileTypeDescriptions": [
       "MS WinMobile personal note"
     ],
-    "SegmentBytes": [
-      "7B 5C 70 77 69"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7B 5C 70 77 69"
+      }
     ],
     "Extensions": [
       "PWI"
@@ -4420,8 +5206,10 @@
     "FileTypeDescriptions": [
       "Rich Text Format"
     ],
-    "SegmentBytes": [
-      "7B 5C 72 74 66 31"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7B 5C 72 74 66 31"
+      }
     ],
     "Extensions": [
       "RTF"
@@ -4431,8 +5219,10 @@
     "FileTypeDescriptions": [
       "Huskygram Poem or Singer embroidery"
     ],
-    "SegmentBytes": [
-      "7C 4B C3 74 E1 C8 53 A4 79 B9 01 1D FC 4F DD 13"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7C 4B C3 74 E1 C8 53 A4 79 B9 01 1D FC 4F DD 13"
+      }
     ],
     "Extensions": [
       "CSD"
@@ -4442,8 +5232,10 @@
     "FileTypeDescriptions": [
       "Corel Paint Shop Pro image"
     ],
-    "SegmentBytes": [
-      "7E 42 4B 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7E 42 4B 00"
+      }
     ],
     "Extensions": [
       "PSP"
@@ -4453,8 +5245,10 @@
     "FileTypeDescriptions": [
       "Digital Watchdog DW-TP-500G audio"
     ],
-    "SegmentBytes": [
-      "7E 74 2C 01 50 70 02 4D 52"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7E 74 2C 01 50 70 02 4D 52"
+      }
     ],
     "Extensions": [
       "IMG"
@@ -4464,8 +5258,10 @@
     "FileTypeDescriptions": [
       "ELF executable"
     ],
-    "SegmentBytes": [
-      "7F 45 4C 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "7F 45 4C 46"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4475,8 +5271,10 @@
     "FileTypeDescriptions": [
       "Relocatable object code"
     ],
-    "SegmentBytes": [
-      "80"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "80"
+      }
     ],
     "Extensions": [
       "OBJ"
@@ -4486,8 +5284,10 @@
     "FileTypeDescriptions": [
       "Dreamcast audio"
     ],
-    "SegmentBytes": [
-      "80 00 00 20 03 12 04"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "80 00 00 20 03 12 04"
+      }
     ],
     "Extensions": [
       "ADX"
@@ -4497,8 +5297,10 @@
     "FileTypeDescriptions": [
       "Kodak Cineon image"
     ],
-    "SegmentBytes": [
-      "80 2A 5F D7"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "80 2A 5F D7"
+      }
     ],
     "Extensions": [
       "CIN"
@@ -4508,8 +5310,10 @@
     "FileTypeDescriptions": [
       "Outlook Express address book (Win95)"
     ],
-    "SegmentBytes": [
-      "81 32 84 C1 85 05 D0 11"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "81 32 84 C1 85 05 D0 11"
+      }
     ],
     "Extensions": [
       "WAB"
@@ -4519,8 +5323,10 @@
     "FileTypeDescriptions": [
       "WordPerfect text"
     ],
-    "SegmentBytes": [
-      "81 CD AB"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "81 CD AB"
+      }
     ],
     "Extensions": [
       "WPF"
@@ -4530,8 +5336,10 @@
     "FileTypeDescriptions": [
       "PNG image"
     ],
-    "SegmentBytes": [
-      "89 50 4E 47 0D 0A 1A 0A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "89 50 4E 47 0D 0A 1A 0A"
+      }
     ],
     "Extensions": [
       "PNG"
@@ -4541,8 +5349,10 @@
     "FileTypeDescriptions": [
       "MS Answer Wizard"
     ],
-    "SegmentBytes": [
-      "8A 01 09 00 00 00 E1 08"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "8A 01 09 00 00 00 E1 08"
+      }
     ],
     "Extensions": [
       "AW"
@@ -4552,8 +5362,10 @@
     "FileTypeDescriptions": [
       "Hamarsoft compressed archive"
     ],
-    "SegmentBytes": [
-      "91 33 48 46"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "91 33 48 46"
+      }
     ],
     "Extensions": [
       "HAP"
@@ -4563,8 +5375,10 @@
     "FileTypeDescriptions": [
       "PGP secret keyring_1"
     ],
-    "SegmentBytes": [
-      "95 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "95 00"
+      }
     ],
     "Extensions": [
       "SKR"
@@ -4574,8 +5388,10 @@
     "FileTypeDescriptions": [
       "PGP secret keyring_2"
     ],
-    "SegmentBytes": [
-      "95 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "95 01"
+      }
     ],
     "Extensions": [
       "SKR"
@@ -4585,8 +5401,10 @@
     "FileTypeDescriptions": [
       "JBOG2 image file"
     ],
-    "SegmentBytes": [
-      "97 4A 42 32 0D 0A 1A 0A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "97 4A 42 32 0D 0A 1A 0A"
+      }
     ],
     "Extensions": [
       "JB2"
@@ -4596,8 +5414,10 @@
     "FileTypeDescriptions": [
       "GPG public keyring"
     ],
-    "SegmentBytes": [
-      "99"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "99"
+      }
     ],
     "Extensions": [
       "GPG"
@@ -4607,8 +5427,10 @@
     "FileTypeDescriptions": [
       "PGP public keyring"
     ],
-    "SegmentBytes": [
-      "99 01"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "99 01"
+      }
     ],
     "Extensions": [
       "PKR"
@@ -4618,8 +5440,10 @@
     "FileTypeDescriptions": [
       "Outlook address file"
     ],
-    "SegmentBytes": [
-      "9C CB CB 8D 13 75 D2 11"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "9C CB CB 8D 13 75 D2 11"
+      }
     ],
     "Extensions": [
       "WAB"
@@ -4629,8 +5453,10 @@
     "FileTypeDescriptions": [
       "tcpdump (libpcap) capture file"
     ],
-    "SegmentBytes": [
-      "A1 B2 C3 D4"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "A1 B2 C3 D4"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4640,8 +5466,10 @@
     "FileTypeDescriptions": [
       "Extended tcpdump (libpcap) capture file"
     ],
-    "SegmentBytes": [
-      "A1 B2 CD 34"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "A1 B2 CD 34"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4651,8 +5479,10 @@
     "FileTypeDescriptions": [
       "Access Data FTK evidence"
     ],
-    "SegmentBytes": [
-      "A9 0D 00 00 00 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "A9 0D 00 00 00 00 00 00"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -4662,8 +5492,10 @@
     "FileTypeDescriptions": [
       "Quicken data"
     ],
-    "SegmentBytes": [
-      "AC 9E BD 8F 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "AC 9E BD 8F 00 00"
+      }
     ],
     "Extensions": [
       "QDF"
@@ -4673,8 +5505,10 @@
     "FileTypeDescriptions": [
       "Java serialization data"
     ],
-    "SegmentBytes": [
-      "AC ED"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "AC ED"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4684,8 +5518,10 @@
     "FileTypeDescriptions": [
       "BGBlitz position database file"
     ],
-    "SegmentBytes": [
-      "AC ED 00 05 73 72 00 12"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "AC ED 00 05 73 72 00 12"
+      }
     ],
     "Extensions": [
       "PDB"
@@ -4695,8 +5531,10 @@
     "FileTypeDescriptions": [
       "Win95 password file"
     ],
-    "SegmentBytes": [
-      "B0 4D 46 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "B0 4D 46 43"
+      }
     ],
     "Extensions": [
       "PWL"
@@ -4706,8 +5544,10 @@
     "FileTypeDescriptions": [
       "PCX bitmap"
     ],
-    "SegmentBytes": [
-      "B1 68 DE 3A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "B1 68 DE 3A"
+      }
     ],
     "Extensions": [
       "DCX"
@@ -4717,8 +5557,10 @@
     "FileTypeDescriptions": [
       "Acronis True Image"
     ],
-    "SegmentBytes": [
-      "B4 6E 68 44"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "B4 6E 68 44"
+      }
     ],
     "Extensions": [
       "TIB"
@@ -4728,8 +5570,10 @@
     "FileTypeDescriptions": [
       "Windows calendar"
     ],
-    "SegmentBytes": [
-      "B5 A2 B0 B3 B3 B0 A5 B5"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "B5 A2 B0 B3 B3 B0 A5 B5"
+      }
     ],
     "Extensions": [
       "CAL"
@@ -4739,8 +5583,10 @@
     "FileTypeDescriptions": [
       "MS Write file_3"
     ],
-    "SegmentBytes": [
-      "BE 00 00 00 AB"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "BE 00 00 00 AB"
+      }
     ],
     "Extensions": [
       "WRI"
@@ -4750,8 +5596,10 @@
     "FileTypeDescriptions": [
       "Palm Desktop DateBook"
     ],
-    "SegmentBytes": [
-      "BE BA FE CA 0F 50 61 6C 6D 53 47 20 44 61 74 61"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "BE BA FE CA 0F 50 61 6C 6D 53 47 20 44 61 74 61"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -4761,8 +5609,10 @@
     "FileTypeDescriptions": [
       "MS Agent Character file"
     ],
-    "SegmentBytes": [
-      "C3 AB CD AB"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "C3 AB CD AB"
+      }
     ],
     "Extensions": [
       "ACS"
@@ -4772,8 +5622,10 @@
     "FileTypeDescriptions": [
       "Adobe encapsulated PostScript"
     ],
-    "SegmentBytes": [
-      "C5 D0 D3 C6"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "C5 D0 D3 C6"
+      }
     ],
     "Extensions": [
       "EPS"
@@ -4783,8 +5635,10 @@
     "FileTypeDescriptions": [
       "Jeppesen FliteLog file"
     ],
-    "SegmentBytes": [
-      "C8 00 79 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "C8 00 79 00"
+      }
     ],
     "Extensions": [
       "LBK"
@@ -4794,8 +5648,10 @@
     "FileTypeDescriptions": [
       "Java bytecode"
     ],
-    "SegmentBytes": [
-      "CA FE BA BE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CA FE BA BE"
+      }
     ],
     "Extensions": [
       "CLASS"
@@ -4805,8 +5661,10 @@
     "FileTypeDescriptions": [
       "NAV quarantined virus file"
     ],
-    "SegmentBytes": [
-      "CD 20 AA AA 02 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CD 20 AA AA 02 00 00 00"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4816,8 +5674,10 @@
     "FileTypeDescriptions": [
       "Java Cryptography Extension keystore"
     ],
-    "SegmentBytes": [
-      "CE CE CE CE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CE CE CE CE"
+      }
     ],
     "Extensions": [
       "JCEKS"
@@ -4827,8 +5687,10 @@
     "FileTypeDescriptions": [
       "OS X ABI Mach-O binary (32-bit reverse)"
     ],
-    "SegmentBytes": [
-      "CE FA ED FE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CE FA ED FE"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4838,8 +5700,10 @@
     "FileTypeDescriptions": [
       "Perfect Office document"
     ],
-    "SegmentBytes": [
-      "CF 11 E0 A1 B1 1A E1 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CF 11 E0 A1 B1 1A E1 00"
+      }
     ],
     "Extensions": [
       "DOC"
@@ -4849,8 +5713,10 @@
     "FileTypeDescriptions": [
       "Outlook Express e-mail folder"
     ],
-    "SegmentBytes": [
-      "CF AD 12 FE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CF AD 12 FE"
+      }
     ],
     "Extensions": [
       "DBX"
@@ -4860,8 +5726,10 @@
     "FileTypeDescriptions": [
       "OS X ABI Mach-O binary (64-bit reverse)"
     ],
-    "SegmentBytes": [
-      "CF FA ED FE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "CF FA ED FE"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -4871,8 +5739,10 @@
     "FileTypeDescriptions": [
       "Microsoft Office document"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "DOC",
@@ -4888,8 +5758,10 @@
     "FileTypeDescriptions": [
       "CaseWare Working Papers"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "AC_"
@@ -4899,8 +5771,10 @@
     "FileTypeDescriptions": [
       "Access project file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "ADP"
@@ -4911,8 +5785,10 @@
       "Lotus",
       "IBM Approach 97 file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "APR"
@@ -4922,8 +5798,10 @@
     "FileTypeDescriptions": [
       "MSWorks database file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "DB"
@@ -4933,8 +5811,10 @@
     "FileTypeDescriptions": [
       "Microsoft Common Console Document"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "MSC"
@@ -4944,8 +5824,10 @@
     "FileTypeDescriptions": [
       "Microsoft Installer package"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "MSI"
@@ -4955,8 +5837,10 @@
     "FileTypeDescriptions": [
       "Minitab data file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "MTW"
@@ -4966,8 +5850,10 @@
     "FileTypeDescriptions": [
       "Developer Studio File Options file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "OPT"
@@ -4977,8 +5863,10 @@
     "FileTypeDescriptions": [
       "MS Publisher file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "PUB"
@@ -4988,8 +5876,10 @@
     "FileTypeDescriptions": [
       "Revit Project file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "RVT"
@@ -4999,8 +5889,10 @@
     "FileTypeDescriptions": [
       "Visual Studio Solution User Options file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "SOU"
@@ -5010,8 +5902,10 @@
     "FileTypeDescriptions": [
       "SPSS output file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "SPO"
@@ -5021,8 +5915,10 @@
     "FileTypeDescriptions": [
       "Visio file"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "VSD"
@@ -5032,8 +5928,10 @@
     "FileTypeDescriptions": [
       "MSWorks text document"
     ],
-    "SegmentBytes": [
-      "D0 CF 11 E0 A1 B1 1A E1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D0 CF 11 E0 A1 B1 1A E1"
+      }
     ],
     "Extensions": [
       "WPS"
@@ -5043,8 +5941,10 @@
     "FileTypeDescriptions": [
       "WinPharoah filter file"
     ],
-    "SegmentBytes": [
-      "D2 0A 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D2 0A 00 00"
+      }
     ],
     "Extensions": [
       "FTR"
@@ -5055,8 +5955,10 @@
       "AOL history",
       "typed URL files"
     ],
-    "SegmentBytes": [
-      "D4 2A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D4 2A"
+      }
     ],
     "Extensions": [
       "ARL",
@@ -5067,8 +5969,10 @@
     "FileTypeDescriptions": [
       "WinDump (winpcap) capture file"
     ],
-    "SegmentBytes": [
-      "D4 C3 B2 A1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D4 C3 B2 A1"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5078,8 +5982,10 @@
     "FileTypeDescriptions": [
       "Windows graphics metafile"
     ],
-    "SegmentBytes": [
-      "D7 CD C6 9A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "D7 CD C6 9A"
+      }
     ],
     "Extensions": [
       "WMF"
@@ -5089,8 +5995,10 @@
     "FileTypeDescriptions": [
       "Word 2.0 file"
     ],
-    "SegmentBytes": [
-      "DB A5 2D 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "DB A5 2D 00"
+      }
     ],
     "Extensions": [
       "DOC"
@@ -5100,8 +6008,10 @@
     "FileTypeDescriptions": [
       "Corel color palette"
     ],
-    "SegmentBytes": [
-      "DC DC"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "DC DC"
+      }
     ],
     "Extensions": [
       "CPL"
@@ -5111,8 +6021,10 @@
     "FileTypeDescriptions": [
       "eFax file"
     ],
-    "SegmentBytes": [
-      "DC FE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "DC FE"
+      }
     ],
     "Extensions": [
       "EFX"
@@ -5122,8 +6034,10 @@
     "FileTypeDescriptions": [
       "Amiga icon"
     ],
-    "SegmentBytes": [
-      "E3 10 00 01 00 00 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "E3 10 00 01 00 00 00 00"
+      }
     ],
     "Extensions": [
       "INFO"
@@ -5133,8 +6047,10 @@
     "FileTypeDescriptions": [
       "Win98 password file"
     ],
-    "SegmentBytes": [
-      "E3 82 85 96"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "E3 82 85 96"
+      }
     ],
     "Extensions": [
       "PWL"
@@ -5144,8 +6060,10 @@
     "FileTypeDescriptions": [
       "MS OneNote note"
     ],
-    "SegmentBytes": [
-      "E4 52 5C 7B 8C D8 A7 4D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "E4 52 5C 7B 8C D8 A7 4D"
+      }
     ],
     "Extensions": [
       "ONE"
@@ -5155,8 +6073,10 @@
     "FileTypeDescriptions": [
       "Windows executable file_1"
     ],
-    "SegmentBytes": [
-      "E8"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "E8"
+      }
     ],
     "Extensions": [
       "COM",
@@ -5167,8 +6087,10 @@
     "FileTypeDescriptions": [
       "Windows executable file_2"
     ],
-    "SegmentBytes": [
-      "E9"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "E9"
+      }
     ],
     "Extensions": [
       "COM",
@@ -5179,8 +6101,10 @@
     "FileTypeDescriptions": [
       "Windows executable file_3"
     ],
-    "SegmentBytes": [
-      "EB"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "EB"
+      }
     ],
     "Extensions": [
       "COM",
@@ -5191,8 +6115,10 @@
     "FileTypeDescriptions": [
       "GEM Raster file"
     ],
-    "SegmentBytes": [
-      "EB 3C 90 2A"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "EB 3C 90 2A"
+      }
     ],
     "Extensions": [
       "IMG"
@@ -5202,8 +6128,10 @@
     "FileTypeDescriptions": [
       "BitLocker boot sector (Vista)"
     ],
-    "SegmentBytes": [
-      "EB 52 90 2D 46 56 45 2D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "EB 52 90 2D 46 56 45 2D"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5213,8 +6141,10 @@
     "FileTypeDescriptions": [
       "BitLocker boot sector (Win7)"
     ],
-    "SegmentBytes": [
-      "EB 58 90 2D 46 56 45 2D"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "EB 58 90 2D 46 56 45 2D"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5224,8 +6154,10 @@
     "FileTypeDescriptions": [
       "RedHat Package Manager"
     ],
-    "SegmentBytes": [
-      "ED AB EE DB"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "ED AB EE DB"
+      }
     ],
     "Extensions": [
       "RPM"
@@ -5235,8 +6167,10 @@
     "FileTypeDescriptions": [
       "UTF8 file"
     ],
-    "SegmentBytes": [
-      "EF BB BF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "EF BB BF"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5246,8 +6180,10 @@
     "FileTypeDescriptions": [
       "FAT12 File Allocation Table"
     ],
-    "SegmentBytes": [
-      "F0 FF FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "F0 FF FF"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5257,8 +6193,10 @@
     "FileTypeDescriptions": [
       "FAT16 File Allocation Table"
     ],
-    "SegmentBytes": [
-      "F8 FF FF FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "F8 FF FF FF"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5268,8 +6206,10 @@
     "FileTypeDescriptions": [
       "FAT32 File Allocation Table_1"
     ],
-    "SegmentBytes": [
-      "F8 FF FF 0F FF FF FF 0F"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "F8 FF FF 0F FF FF FF 0F"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5279,8 +6219,10 @@
     "FileTypeDescriptions": [
       "FAT32 File Allocation Table_2"
     ],
-    "SegmentBytes": [
-      "F8 FF FF 0F FF FF FF FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "F8 FF FF 0F FF FF FF FF"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5290,8 +6232,10 @@
     "FileTypeDescriptions": [
       "Bitcoin-Qt blockchain block file"
     ],
-    "SegmentBytes": [
-      "F9 BE B4 D9"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "F9 BE B4 D9"
+      }
     ],
     "Extensions": [
       "DAT"
@@ -5301,8 +6245,10 @@
     "FileTypeDescriptions": [
       "XZ archive"
     ],
-    "SegmentBytes": [
-      "FD 37 7A 58 5A 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FD 37 7A 58 5A 00"
+      }
     ],
     "Extensions": [
       "XZ"
@@ -5312,8 +6258,10 @@
     "FileTypeDescriptions": [
       "OS X ABI Mach-O binary (32-bit)"
     ],
-    "SegmentBytes": [
-      "FE ED FA CE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FE ED FA CE"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5323,8 +6271,10 @@
     "FileTypeDescriptions": [
       "OS X ABI Mach-O binary (64-bit)"
     ],
-    "SegmentBytes": [
-      "FE ED FA CF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FE ED FA CF"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5334,8 +6284,10 @@
     "FileTypeDescriptions": [
       "JavaKeyStore"
     ],
-    "SegmentBytes": [
-      "FE ED FE ED"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FE ED FE ED"
+      }
     ],
     "Extensions": [
       "(none)"
@@ -5345,8 +6297,10 @@
     "FileTypeDescriptions": [
       "Symantex Ghost image file"
     ],
-    "SegmentBytes": [
-      "FE EF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FE EF"
+      }
     ],
     "Extensions": [
       "GHO",
@@ -5358,8 +6312,10 @@
       "UTF-16",
       "UCS-2 file"
     ],
-    "SegmentBytes": [
-      "FE FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FE FF"
+      }
     ],
     "Extensions": [
       "(NONE)"
@@ -5369,8 +6325,10 @@
     "FileTypeDescriptions": [
       "Windows executable"
     ],
-    "SegmentBytes": [
-      "FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF"
+      }
     ],
     "Extensions": [
       "SYS"
@@ -5380,8 +6338,10 @@
     "FileTypeDescriptions": [
       "Works for Windows spreadsheet"
     ],
-    "SegmentBytes": [
-      "FF 00 02 00 04 04 05 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF 00 02 00 04 04 05 54"
+      }
     ],
     "Extensions": [
       "WKS"
@@ -5391,8 +6351,10 @@
     "FileTypeDescriptions": [
       "QuickReport Report"
     ],
-    "SegmentBytes": [
-      "FF 0A 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF 0A 00"
+      }
     ],
     "Extensions": [
       "QRP"
@@ -5402,8 +6364,10 @@
     "FileTypeDescriptions": [
       "Windows international code page"
     ],
-    "SegmentBytes": [
-      "FF 46 4F 4E 54"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF 46 4F 4E 54"
+      }
     ],
     "Extensions": [
       "CPI"
@@ -5413,8 +6377,10 @@
     "FileTypeDescriptions": [
       "Keyboard driver file"
     ],
-    "SegmentBytes": [
-      "FF 4B 45 59 42 20 20 20"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF 4B 45 59 42 20 20 20"
+      }
     ],
     "Extensions": [
       "SYS"
@@ -5424,8 +6390,10 @@
     "FileTypeDescriptions": [
       "WordPerfect text and graphics"
     ],
-    "SegmentBytes": [
-      "FF 57 50 43"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF 57 50 43"
+      }
     ],
     "Extensions": [
       "WP",
@@ -5442,8 +6410,10 @@
       "EXIF",
       "SPIFF images"
     ],
-    "SegmentBytes": [
-      "FF D8 FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF D8 FF"
+      }
     ],
     "Extensions": [
       "JFIF",
@@ -5456,8 +6426,10 @@
     "FileTypeDescriptions": [
       "MPEG-4 AAC audio"
     ],
-    "SegmentBytes": [
-      "FF F1"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF F1"
+      }
     ],
     "Extensions": [
       "AAC"
@@ -5467,8 +6439,10 @@
     "FileTypeDescriptions": [
       "MPEG-2 AAC audio"
     ],
-    "SegmentBytes": [
-      "FF F9"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF F9"
+      }
     ],
     "Extensions": [
       "AAC"
@@ -5478,8 +6452,10 @@
     "FileTypeDescriptions": [
       "Windows Registry file"
     ],
-    "SegmentBytes": [
-      "FF FE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF FE"
+      }
     ],
     "Extensions": [
       "REG"
@@ -5490,8 +6466,10 @@
       "UTF-32",
       "UCS-2 file"
     ],
-    "SegmentBytes": [
-      "FF FE"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF FE"
+      }
     ],
     "Extensions": [
       "(NONE)"
@@ -5502,8 +6480,10 @@
       "UTF-32",
       "UCS-4 file"
     ],
-    "SegmentBytes": [
-      "FF FE 00 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF FE 00 00"
+      }
     ],
     "Extensions": [
       "(NONE)"
@@ -5513,8 +6493,10 @@
     "FileTypeDescriptions": [
       "MSinfo file"
     ],
-    "SegmentBytes": [
-      "FF FE 23 00 6C 00 69 00"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF FE 23 00 6C 00 69 00"
+      }
     ],
     "Extensions": [
       "MOF"
@@ -5524,8 +6506,10 @@
     "FileTypeDescriptions": [
       "DOS system driver"
     ],
-    "SegmentBytes": [
-      "FF FF FF FF"
+    "SegmentBytesAndOffset": [
+      {
+        "SegmentStringByte": "FF FF FF FF"
+      }
     ],
     "Extensions": [
       "SYS"

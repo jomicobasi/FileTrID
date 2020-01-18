@@ -15,7 +15,7 @@ namespace FileTypeChecker
 
         public FileTypeTeller()
         {
-            List<FileTypeSpecifications> JSONFileSpecs = JsonSerializer.Deserialize<List<FileTypeSpecifications>>(Resources.FILESIGNATURES_Test);
+            List<FileTypeSpecifications> JSONFileSpecs = JsonSerializer.Deserialize<List<FileTypeSpecifications>>(Resources.FILESIGNATURES_JSON);
             foreach (var spec in JSONFileSpecs)
             {
                 List<MatchByteSegment> OneFileByteSegments = new List<MatchByteSegment>();
@@ -25,7 +25,7 @@ namespace FileTypeChecker
                         Array.ConvertAll(SegByteOff.SegmentStringByte.Trim().Split(' '), byteAsString => Convert.ToByte(byteAsString, 16)), SegByteOff.Offset)
                     );
                 }
-                KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileTypeDescriptions), "." + string.Join(",", spec.Extensions),
+                KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileTypeDescriptions), string.Join(",", spec.Extensions),
                             new FuzzyFileTypeMatcher(OneFileByteSegments)));
             }
             KnownFileSignatures.SortListBySegmentBytesLengthDescendently();
@@ -40,17 +40,18 @@ namespace FileTypeChecker
         {
             CollectionFileType FileTypeTargets = new CollectionFileType();
 
-            int MaxSizematch = 0;
+            int MaximumLengthForMatch = 0;
             foreach (FileType CurrFileType in KnownFileSignatures)
             {
-                int MAX_LENGTH = CurrFileType.GetMaxSignatureLength();
-                if (MaxSizematch <= MAX_LENGTH)
+                int CurrFileSignatureLength = CurrFileType.GetMaxSignatureLength();
+                int MinResult = Math.Min(CurrFileSignatureLength,rawContent.Length);
+                if (MinResult == CurrFileSignatureLength)
                 {
                     FileTypeTargets.AddFileType(CurrFileType);
-                    MaxSizematch = MAX_LENGTH;
+                    MaximumLengthForMatch = Math.Max(MaximumLengthForMatch, CurrFileSignatureLength);
                 }
             }
-            MSTF = new MinimumStreamTargetFile(rawContent, MaxSizematch, FileTypeTargets); 
+            MSTF = new MinimumStreamTargetFile(rawContent, MaximumLengthForMatch, FileTypeTargets); 
             return MSTF.GetMatchingFileTypes();
         }
 
@@ -63,7 +64,7 @@ namespace FileTypeChecker
             CollectionFileType FileTypeTargets = new CollectionFileType(KnownFileSignatures.List.FindAll(
                 delegate (FileType ft)
                 {
-                    return ft.Extension.Equals(extension);
+                    return ft.Extension.Contains(extension);
                 }
             ));
             if (FileTypeTargets.List.Count == 0)

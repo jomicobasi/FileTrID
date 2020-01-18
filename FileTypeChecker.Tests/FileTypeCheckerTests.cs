@@ -2,7 +2,8 @@
 using System.IO;
 using NUnit.Framework;
 using FileTypeChecker.Tests.Properties;
-
+using System.Globalization;
+using System;
 
 namespace FileTypeChecker.Tests
 {
@@ -36,27 +37,27 @@ namespace FileTypeChecker.Tests
             public void ItDetectsPDFs()
             {
                 CollectionFileType fileExtensions = checker.GetFileExtension(pdf);
-                Assert.IsTrue(fileExtensions.GetExtensionsAsString().Contains(".pdf"));
+                Assert.IsTrue(fileExtensions.GetExtensionsAsString().Contains("PDF"));
             }
 
             [Test]
             public void ItDetectsBMPs()
             {
                 CollectionFileType fileExtensions = checker.GetFileExtension(bitmap);
-                Assert.IsTrue(fileExtensions.GetExtensionsAsString().Contains(".bmp"));
+                Assert.IsTrue(fileExtensions.GetExtensionsAsString().Contains("BMP"));
             }
 
             [Test]
             public void ItIsIndeedBMP()
             {
-                bool boolIsExtension = checker.IsFileExtensionCorrect(".bmp",bitmap);
+                bool boolIsExtension = checker.IsFileExtensionCorrect("BMP", bitmap);
                 Assert.IsTrue(boolIsExtension);
             }
 
             [Test]
             public void ItIsNotBMP()
             {
-                bool boolIsExtension = checker.IsFileExtensionCorrect(".pdf", bitmap);
+                bool boolIsExtension = checker.IsFileExtensionCorrect("PDF", bitmap);
                 Assert.IsFalse(boolIsExtension);
             }
         }
