@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FileTypeChecker
 {
@@ -27,11 +23,12 @@ namespace FileTypeChecker
             CollectionFileType AllFT_Matches = new CollectionFileType();
             foreach (FileType FT in FilteredFileTypeTargets)
             {
-                if (FT.Matches(MinimumTargetFileSequence)) {
+                if (FT.Matches(MinimumTargetFileSequence))
+                {
                     AllFT_Matches.AddFileType(FT);
                 }
             }
-            return (AllFT_Matches.Count == 0 ? new CollectionFileType(new[] { FileType.Unknown }): AllFT_Matches);
+            return (AllFT_Matches.Count == 0 ? new CollectionFileType(new[] { FileType.Unknown }) : AllFT_Matches);
 
         }
     }

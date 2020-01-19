@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace FileTypeChecker
+﻿namespace FileTypeChecker
 {
     public class FileType
     {

@@ -1,7 +1,7 @@
 ﻿using FileTypeChecker.Properties;
-using System.Text.Json;
 using System;
 using System.Collections.Generic;
+using System.Text.Json;
 
 [assembly: CLSCompliant(true)]
 
@@ -44,14 +44,14 @@ namespace FileTypeChecker
             foreach (FileType CurrFileType in KnownFileSignatures)
             {
                 int CurrFileSignatureLength = CurrFileType.GetMaxSignatureLength();
-                int MinResult = Math.Min(CurrFileSignatureLength,rawContent.Length);
+                int MinResult = Math.Min(CurrFileSignatureLength, rawContent.Length);
                 if (MinResult == CurrFileSignatureLength)
                 {
                     FileTypeTargets.AddFileType(CurrFileType);
                     MaximumLengthForMatch = Math.Max(MaximumLengthForMatch, CurrFileSignatureLength);
                 }
             }
-            MSTF = new MinimumStreamTargetFile(rawContent, MaximumLengthForMatch, FileTypeTargets); 
+            MSTF = new MinimumStreamTargetFile(rawContent, MaximumLengthForMatch, FileTypeTargets);
             return MSTF.GetMatchingFileTypes();
         }
 
@@ -64,7 +64,7 @@ namespace FileTypeChecker
             CollectionFileType FileTypeTargets = new CollectionFileType(KnownFileSignatures.List.FindAll(
                 delegate (FileType ft)
                 {
-                    return ft.Extension.Contains(extension);
+                    return Array.IndexOf(ft.Extension.Split(','), extension) >= 0;
                 }
             ));
             if (FileTypeTargets.List.Count == 0)

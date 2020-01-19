@@ -1,7 +1,7 @@
-﻿using System.Drawing.Imaging;
-using System.IO;
+﻿using FileTypeChecker.Tests.Properties;
 using NUnit.Framework;
-using FileTypeChecker.Tests.Properties;
+using System.Drawing.Imaging;
+using System.IO;
 
 namespace FileTypeChecker.Tests
 {

@@ -4,7 +4,10 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTypeTeller", "FileTypeChecker\FileTypeTeller.csproj", "{0AE201D3-CE5B-404F-8C25-36BD929E1D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTypeTeller.Tests", "FileTypeChecker.Tests\FileTypeTeller.Tests.csproj", "{716D0AB2-5088-4A22-A6E8-24B8D2F2039B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTypeTeller_Tests", "FileTypeChecker_Tests\FileTypeTeller_Tests.csproj", "{716D0AB2-5088-4A22-A6E8-24B8D2F2039B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0AE201D3-CE5B-404F-8C25-36BD929E1D19} = {0AE201D3-CE5B-404F-8C25-36BD929E1D19}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

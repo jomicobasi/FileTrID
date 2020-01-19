@@ -29,8 +29,8 @@ namespace FileTypeChecker
 
         public void SortListBySegmentBytesLengthDescendently()
         {
-            List.Sort((ft1, ft2) => 
-                -1*ft1.GetMaxSignatureLength().CompareTo(ft2.GetMaxSignatureLength()));
+            List.Sort((ft1, ft2) =>
+                -1 * ft1.GetMaxSignatureLength().CompareTo(ft2.GetMaxSignatureLength()));
         }
 
         public IEnumerator GetEnumerator()
