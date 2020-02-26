@@ -28,7 +28,7 @@ namespace FileTypeChecker
                 KnownFileSignatures.AddFileType(new FileType(string.Join(",", spec.FileTypeDescriptions), string.Join(",", spec.Extensions),
                             new FuzzyFileTypeMatcher(OneFileByteSegments)));
             }
-            KnownFileSignatures.SortListBySegmentBytesLengthDescendently();
+            //KnownFileSignatures.SortListBySegmentBytesLengthDescendently();
         }
 
         public FileTypeTeller(CollectionFileType KnownFileSignatures)
