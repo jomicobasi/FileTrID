@@ -2,5 +2,5 @@
 
 ## Outsystems Extension for File Extension Recognition ##
 
-It's purpose is to tell what the extension of the given file is, and/or test if the given file is of the type it claims to be
+Its purpose is to either tell what is the extension of the given file or test if the given file is of the extension it claims to be.
 
